@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="keywords" content="有钱还 ">
+		<meta name="description" content="有钱还 ">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/jquery.min-2.1.4.js"></script>
+		<script src="js/common.js"></script>
+		<script type="text/javascript" src="js/flexible.js"></script>
+		<script type="text/javascript" src="js/mui.min.js"></script>
+		<title>个人中心</title>
+	</head>
+
+	<body class="log_page">
+		<div class="header">
+			<!--<div class="header_fl" onclick="javasript:history.back(-1)"><img src="images/back.png"></div>-->
+			<h2 class="title">个人中心</h2>
+		</div>
+		<div class="plan_page">
+			<div class="user_top flex">
+				<div class="user_head"><img src="images/ic_mark.png" alt=""></div>
+				<div class="user_info">
+					<h3 id="name"></h3>
+					<p><a href="apply.html">申请代理</a></p>
+				</div>
+			</div>
+			<ul class="user_list">
+				<li><a><img src="images/icon_verified.png">实名认证<span></span></a></li>
+				<!--<li class="user_cards"><a><img src="images/icon_credit_card.png">我的信用卡</a></li>
+				<li class="user_cards"><a><img src="images/icon_bank_card.png">我的储蓄卡</a></li>
+				-->
+				
+				<li><a href="friends.html"><img src="images/icon_firend.png">我的好友</a></li>
+				<li class="user_clear"><a><img src="images/icon_clean.png">清除缓存<span> </span></a></li>
+				<li><a href="payment.html"><img src="images/icon_recepit.png">收款方式<span> </span></a></li>
+				<li><a href="kefu.html"><img src="images/icon_contact_me.png">联系我们</a></li>
+			</ul>
+			<button type="button" class="user_btn submit_btn">退出登录</button>
+		</div>
+		<div class="footer flex">
+			<a href="../index.html">
+				<img src="images/main_tab0_normal.png">
+				<p>首页</p>
+			</a>
+			<a href="plan.html">
+				<img src="images/main_tab1_normal.png">
+				<p>计划</p>
+			</a>
+			<a href="wallet.html">
+				<img src="images/main_tab4_normal.png">
+				<p>钱包</p>
+			</a>
+			<a class="active" href="user.html">
+				<img src="images/main_tab3_checked.png">
+				<p>我的</p>
+			</a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		if(localStorage.getItem("token")==null){
+			window.location.href = "login.html"
+		}
+		$('.user_cards').click(function(){
+			mui.toast("暂未开放")
+		});
+		$('.submit_btn').click(function(){
+			window.location.href = "login.html"
+		});
+		$.ajax({
+			type: 'post',
+			url:"/index.php/upload/getUserCard",
+			data: {
+				token: localStorage.getItem("token")
+			},
+			success: function(e) {
+				if(e.code==0){
+					$(".user_list li").eq(0).find("span").text(e.msg);
+					$(".user_list li").eq(0).find("a").attr('href','verified.html');
+				}
+				if(e.code==1){
+					$(".user_list li").eq(0).find("span").text(e.msg);
+					$(".user_list li").eq(0).find("a").attr('href','plan.html');
+				}
+				if(e.code==2){
+					$(".user_list li").eq(0).find("span").text(e.msg);
+					$(".user_list li").eq(0).find("a").attr('href','verified.html');
+
+				}
+			}
+		});
+		$.ajax({
+			type: 'post',
+			url:"/index.php/upload/getUserCollection",
+			data: {
+				token: localStorage.getItem("token")
+			},
+			success: function(e) {
+				if(e.code==2){
+					$(".user_list li").eq(3).find("span").text(e.msg);
+				}
+				if(e.code==1){
+					$(".user_list li").eq(3).find("span").text(e.msg);
+
+				}
+			}
+		});
+		$.ajax({
+			type: 'post',
+			url:"/index.php/upload/getUserMess",
+			data: {
+				token: localStorage.getItem("token")
+			},
+			success: function(e) {
+				if(e.user_card != null){
+					if(e.user_card.status==0){
+						$('#name').html(e.user.username);
+					}else{
+						$('#name').html(e.user_card.user_name);
+					}
+				}else{
+					$('#name').html(e.user.username);
+				}
+			}
+		});
+	</script>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059) shiming_renzheng.html -->
+<html lang="zh-cmn-Hans" class="pixel-ratio-1" style="font-size: 150px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+		<link rel="stylesheet" href="shiming_renzheng/weui.min.css">
+		<link rel="stylesheet" href="shiming_renzheng/comm.css">
+		<link rel="stylesheet" href="shiming_renzheng/all.css">
+		<link rel="stylesheet" href="shiming_renzheng/forget_password.css">
+		<link rel="stylesheet" href="shiming_renzheng/paycode.css">
+		<link rel="stylesheet" href="shiming_renzheng/shiming_renzheng.css">
+		<script src="shiming_renzheng/page.js" type="text/javascript" charset="utf-8"></script>
+		<title> 实名认证</title>
+	</head>
+	<body>
+
+
+		<div class="page">
+			<div class="page-hd">
+				<div class="header mainbgc">
+					<div class="header-left">
+						<a href="javascript:history.go(-1)" class="left-arrow text_fff"></a>
+					</div>
+					<div class="header-title text_fff">实名认证</div>
+					<div class="header-right">
+						<a href=" shiming_renzheng.html#"></a>
+					</div>
+				</div>
+
+			</div>
+			<div class="page-bd">
+
+				<div class="shuruinout">
+					<form id="form1" class="">
+						<div class=" weui-cells">
+						   
+							<div class="weui-cell mukuai fs28">
+								<div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
+								<div class="weui-cell__bd">
+									<input class="weui-input text_maincolor" name="name" id="name" value="" type="text" placeholder="请填写姓名" format="empty" f-name="请填写姓名">
+								</div>
+							</div>
+						
+							<div class="weui-cell mukuai fs28">
+								<div class="weui-cell__hd"><label class="weui-label">身份证</label></div>
+								<div class="weui-cell__bd">
+									<input class="weui-input text_maincolor" type="text" name="account" value="" format="empty" f-name="请输入身份证" placeholder="请输入身份证">
+								</div>
+							</div>
+						
+						</div>
+						<div class="upcodeimg">
+							<div class="uptitles tc fs28">
+								拍摄并上传您的证件照片
+							</div>
+							<div class="uploadpingzheng">
+								<div class="uploadimg tc">
+									<div class="weui-gallery" id="gallery">
+										<span class="weui-gallery__img" id="galleryImg"></span>
+										<div class="weui-gallery__opr">
+											<a href="javascript:" class="weui-gallery__del">
+												<i class="weui-icon-delete weui-icon_gallery-delete"></i>
+											</a>
+										</div>
+									</div>
+									<div class="weui-uploader__bd">
+										<input type="hidden" name="code_url" value="{{code_url}}" id="code_url">
+										<ul class="weui-uploader__files" id="uploaderFiles">
+											
+										</ul>
+										<div class="weui-uploader__input-box">
+											<input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="uptisdhi tc fs26"><span class="mainbgc_textcfff">上传身份证正面</span></p>
+							<div class="uploadpingzheng">
+								<div class="uploadimg tc">
+									<div class="weui-gallery" id="gallery">
+										<span class="weui-gallery__img" id="galleryImg"></span>
+										<div class="weui-gallery__opr">
+											<a href="javascript:" class="weui-gallery__del">
+												<i class="weui-icon-delete weui-icon_gallery-delete"></i>
+											</a>
+										</div>
+									</div>
+									<div class="weui-uploader__bd">
+										<input type="hidden" name="code_url" value="{{code_url}}" id="code_url">
+										<ul class="weui-uploader__files" id="uploaderFiles">
+											
+										</ul>
+										<div class="weui-uploader__input-box">
+											<input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="uptisdhi tc fs26"><span class="mainbgc_textcfff">上传身份证反面</span></p>
+						</div>
+						
+						
+						<div class="btn_sub">
+							<button type="button" class="mainbgc_textcfff fs28" id="">确认</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="shiming_renzheng/all.js"></script><script language="javascript" src="shiming_renzheng/jquery-2.1.4.js"></script><script language="javascript" src="shiming_renzheng/jquery-weui.min.js"></script><script language="javascript" src="shiming_renzheng/jquery.cookie.js"></script><script language="javascript" src="shiming_renzheng/template-web.js"></script><script language="javascript" src="shiming_renzheng/config.js"></script><script language="javascript" src="shiming_renzheng/utils.js"></script><script language="javascript" src="shiming_renzheng/api_member.js"></script><script language="javascript" src="shiming_renzheng/api_public.js"></script><script language="javascript" src="shiming_renzheng/api_account.js"></script><script language="javascript" src="shiming_renzheng/api_transaction.js"></script><script language="javascript" src="shiming_renzheng/api_shops.js"></script>
+
+		<script type="text/html" id="form_template">
+
+		</script>
+		<script type="text/html" id="miane_temp">
+			{{each msg item i}}
+			  <li>
+			  	<p class="miane_temp_{{item.money}}" data_n="{{item.money}}">{{item.money}}</p>
+			  </li>
+			{{/each}}
+		</script>
+		<script type="text/javascript">
+			//var codeid = utils.getUrlParam("id");
+			var code_price = 0;
+			var img_url = "";
+			document.getElementById("uploaderInput").addEventListener("change", function(e) {
+				var files = this.files;
+				var reader = new FileReader();
+				reader.readAsDataURL(files[0]);
+				reader.onload = function(e) {
+					var dx = (e.total / 1024) / 1024;
+					if (dx >= 2) {
+						alert("文件大小大于2M");
+						return;
+					}
+					var result = this.result; //这里就是转化之后的DataURL
+					config.upload(result, function(e) {
+						console.log(e)
+						if (e.code == 1) {
+							$('.weui-uploader__input-box').addClass('addposition')
+							img_url = e.msg;
+							console.log(img_url)
+							$("#code_url").val(img_url)
+							$('#up_image').show();
+							$('.weui-uploader__input-box').css('opacity', '0')
+							$("#up_image").attr("src", img_url);
+						} else {
+							$.alert(e.msg)
+						}
+					})
+			
+				}
+			})
+			
+		
+		</script>
+
+	
+
+</body></html>

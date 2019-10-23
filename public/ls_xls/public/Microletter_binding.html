@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title></title>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script src="js/js.js" type="text/javascript"></script>
+<style type="text/css">
+	.personal_select{
+		text-align-last: right;
+	}
+	#file1,#file2{
+		opacity: 0;
+		width:0;
+		height:0;
+		display: none;
+	}
+	form{
+		display: inline-block;
+	}
+</style>
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+	 	<a href="my.html" class="hele"></a>
+		<h1 class="hetitle">微信绑定</h1>
+	</div>
+	<div id="page" class="page m3">
+	
+		
+		<div class="pers1onal_data" style="margin-top: .2rem;">
+			<div>微信号：</div>	
+			<div class="main">
+				<input class="personal_ipt wx_account" readonly="readonly" type="text" placeholder="请输入微信号"/>
+				<!--<img src="images/zuo.png" style="width: .2rem;height: .36rem;" alt="" />-->
+			</div>
+
+		</div>
+		<!--<div style="text-align: center;margin-top: 1.51rem;">
+        	<button type="button" class="login_btn personal_b">确认</button>
+        </div>-->
+	</div>	
+	<script src="js/files_index.js?v=2019"></script>
+	<script src="js/Micro_bind.js"></script>
+</body>
+</html>

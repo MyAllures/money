@@ -1,0 +1,31 @@
+---------------------------------------------------------------
+[ 2019-10-10T16:27:08+08:00 ] 154.85.102.68 27.205.175.135 POST /api.php/sms/send.html
+[ info ] www.ihnha.cn/api.php/sms/send.html [运行时间：1.203125s][吞吐率：0.83req/s] [内存消耗：3,768.78kb] [文件加载：65]
+[ error ] [8]未定义变量: send_status[D:\wwwroot\YouQianHuan\app\common\logic\Sms.php:162]
+---------------------------------------------------------------
+[ 2019-10-10T16:27:20+08:00 ] 154.85.102.68 27.205.175.135 POST /api.php/sms/send.html
+[ info ] www.ihnha.cn/api.php/sms/send.html [运行时间：0.687500s][吞吐率：1.45req/s] [内存消耗：3,768.79kb] [文件加载：65]
+[ error ] [8]未定义变量: send_status[D:\wwwroot\YouQianHuan\app\common\logic\Sms.php:162]
+---------------------------------------------------------------
+[ 2019-10-10T16:49:24+08:00 ] 154.85.102.68 125.45.113.158 POST /api.php/sms/send.html
+[ info ] www.ihnha.cn/api.php/sms/send.html [运行时间：0.890625s][吞吐率：1.12req/s] [内存消耗：3,768.77kb] [文件加载：65]
+[ error ] [8]未定义变量: send_status[D:\wwwroot\YouQianHuan\app\common\logic\Sms.php:162]
+---------------------------------------------------------------
+[ 2019-10-10T16:49:47+08:00 ] 154.85.102.68 125.45.113.158 POST /api.php/User/reg
+[ info ] www.ihnha.cn/api.php/User/reg [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：3,876.57kb] [文件加载：65]
+[ error ] [8]未定义数组索引: code[D:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+---------------------------------------------------------------
+[ 2019-10-10T16:49:59+08:00 ] 154.85.102.68 125.45.113.158 POST /api.php/User/reg
+[ info ] www.ihnha.cn/api.php/User/reg [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：3,876.73kb] [文件加载：65]
+[ error ] [8]未定义数组索引: code[D:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+---------------------------------------------------------------
+[ 2019-10-10T16:52:13+08:00 ] 154.85.102.68 125.45.113.158 POST /api.php/User/reg
+[ info ] www.ihnha.cn/api.php/User/reg [运行时间：0.203125s][吞吐率：4.92req/s] [内存消耗：4,022.88kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[D:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[D:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[D:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[D:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-10T16:53:00+08:00 ] 154.85.102.68 125.45.113.158 POST /index.php/upload/getUserCard
+[ info ] www.ihnha.cn/index.php/upload/getUserCard [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：3,831.35kb] [文件加载：64]
+[ error ] [2]file_get_contents(D:\wwwroot\YouQianHuan\runtime\cache\01\f1f824749e48843962f3f27dca3286.php): failed to open stream: No such file or directory[D:\wwwroot\YouQianHuan\thinkphp\library\think\cache\driver\File.php:109]

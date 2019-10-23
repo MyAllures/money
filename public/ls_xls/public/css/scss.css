@@ -1,0 +1,84 @@
+*,div,p,ul,li,input,button{box-sizing: border-box;}
+/*主体*/
+.m4{margin-top: .88rem;padding: 0 0 .98rem 0;;width: 100%;bottom:0;overflow-y: auto;}
+/*主体背景*/
+.bg{background:url(../images/bg.png)no-repeat center center;background-size: 100% 100%;}
+/*头部背景*/
+.bghead{background: url(../images/bghead.png)no-repeat center center;background-size:100% 100% ;}
+.bgblack{background: #27262c;}
+.bggay{background: #F2F3F8;}
+/*字体色*/
+.txtz{color:#1E88E5;}/*黄色*/
+.txtg{color:#7e7e7e;}/*灰色*/
+.txtb{color:#333;}/*黑色*/
+.txtw{color:#fff;}/*白色*/
+/*字体大小*/
+.fs36{font-size: .36rem!important;}
+.fs30{font-size: .3rem!important;}
+.fs28{font-size: .28rem!important;}
+.fs24{font-size: .24rem!important;}
+/*内边距*/
+.pad44{padding: 0 .44rem ;}
+.pad24{padding: 0 .24rem ;}
+.pad22{padding: 0 .22rem ;}
+.padl44{padding-left:.44rem ;}
+.padr44{padding-right: .44rem;}
+/*外边距*/
+.mart20{margin-top: .20rem;}
+.mart24{margin-top: .24rem;}
+.mart40{margin-top: .4rem;}
+.mart36{margin-top: .36rem;}
+.mar44{margin: 0 .44rem;}
+.marb3{margin-bottom: .3rem;}
+.marb44{margin-bottom: .44rem;}
+.marb78{margin-bottom: .78rem;}
+/*高度*/
+.h40{height: .4rem;line-height: .4rem;}
+.h60{height: .6rem;line-height: .6rem;}
+.h74{height: .74rem;line-height: .74rem;}
+.h77{height: .77rem;line-height: .77rem;}
+.h88{height: .88rem;line-height: .88rem;}
+.h80{height: .8rem;line-height: .8rem;}
+/*居中*/
+.tac{text-align: center;}
+/*居左*/
+.tal{text-align: left;}
+/*居右*/
+.tar{text-align: right;}
+/*边框黄*/
+.borz{border:1px solid #f8c512;}
+/*边框无*/
+.bor0{border: 0;}
+/*长按钮*/
+.rbtn{width: 6.22rem;height: .88rem;background:url(../images/bg.png)no-repeat center center;background-size: 100% 100%;border: 0;outline: none;color:#000;font-size:.34rem ;border-radius: 5px;}
+/*短按钮*/
+.sbtn{width: 1.5rem;height: .6rem;background:url(../images/bg.png)no-repeat center center;background-size: 100% 100%;border: 0;outline: none;color:#000;font-size: .28rem;border-radius: 5px;}
+/*块级按钮*/
+.gbtn{display:block;width: 100%; height: .88rem;background:url(../images/bg.png)no-repeat center center;background-size: 100% 100%;border: 0;outline: none;color:#000;font-size: .28rem;}
+/*左浮动*/
+.fl-l{float: left;}
+/*右浮动*/
+.fl-r{float: right;}
+
+/*footer*/
+.footer {position: fixed;left: 0;bottom: -2px;width: 100%;z-index: 999;}
+.fonav{height: .98rem;background: #fff;overflow: hidden;}
+.fonav .foitem{display:block;width:25%;text-align: center;color:rgb(179,179,179);float: left;font-size:.2rem;height:.98rem;}
+.fonav .foitem.on{color:#1E88E5;}
+.fonav .foimg{display: block;width:.44rem;height:.44rem;margin:.1rem auto .05rem;}
+
+/*我的*/
+/*#mytk{margin-top:.21rem ;}*/
+#mytk>div,#sys>div,#fdback>ul{margin-bottom: 1px;background: #fff;height: 1.54rem;}
+#mytk div.ldiv{width: 1.51rem;text-align: center;height: 100%;float: left;}
+#mytk div.rdiv{width:5.98rem ;padding-right: .22rem;height: 100%;float: left;}
+#mytk div.rdiv>div img{width: .31rem;height: .31rem;vertical-align: middle;margin-right: .21rem;}
+#mytk .tktx{width: 1.01rem;height: 1.01rem;margin-top: .28rem;}
+/*有钱还攻略*/
+#sys,#fdback,#mytk{margin-top:.21rem ;}
+#sys>div{height: auto;}
+#sys .content{width: 5.74rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+/*意见反馈记录*/
+#fdback>ul{overflow: hidden;height: 1rem;}
+#fdback>ul>li{line-height: 1rem;height: 100%;}
+#fdback>ul>li>img{width: .2rem;height: .36rem;vertical-align: middle;margin-left: .26rem;}

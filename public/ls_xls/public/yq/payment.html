@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="keywords" content="有钱还 ">
+		<meta name="description" content="有钱还 ">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/jquery.min-2.1.4.js"></script>
+		<script src="js/common.js"></script>
+		<script type="text/javascript" src="js/flexible.js" ></script>
+		<script type="text/javascript" src="js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/shangchuan.js" ></script>
+		<script type="text/javascript" src="../js/collection.js" ></script>
+		<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+		<script src="../js/files.js?v=2019"></script>
+		<title>收款方式</title>
+	</head>
+
+	<body class="log_page">
+		<div class="header">
+			<div class="header_fl" onclick="javasript:history.back(-1)"><img src="images/back.png"></div>
+			<h2 class="title">收款方式</h2>
+		</div>
+		<div class="page_main">
+			<div class="plan_file pay_file">
+				<form action="" method="">
+					<input type="hidden" name="token" id="token" value="">
+					<input type="hidden" name="user_phone" id="user_phone" value="">
+					<div class="plan_group flex">
+						<span>收款渠道</span>
+						<input type="text" value="微信或支付宝"  readonly="readonly">
+					</div>
+					<div class="plan_group flex">
+						<span>账号</span>
+						<input type="text" id="phone" placeholder="请输入微信或支付宝收款账号" value="">
+					</div>
+					<p>收款二维码</p>
+					<div class="plan_group up_group">
+						<div class="plan_up">
+							<img src="images/ewm.jpg" id="thubm">
+							<input type="file"  onchange="previewImg(this,'#thubm')">
+						</div>
+						<p>点击上传收款二维码</p>
+					</div>
+
+					<div class="plan_group yan_group flex">
+						<span>验证码</span>
+						<input type="text" id="code" placeholder="请输入短信验证码">
+						<button type="button" class="get_btn">获取验证码</button>
+					</div>
+					<input type="button" class="submit_btn" value="保存">
+				</form>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		if(localStorage.getItem("token")==null){
+			window.location.href = "login.html"
+		}
+		$("#token").val(localStorage.getItem("token"));
+		var total=localStorage.getItem("total")?localStorage.getItem("total"):0;
+		$.ajax({
+			type:"post",
+			url: baseUrl + "/index.php/upload/getUserMess",
+			async:true,
+			data:{
+				token: localStorage.getItem("token")
+			},
+			dataType:"json",
+			success:function(data){
+				$("#user_phone").val(data.user.username);
+				if(data.user_collection != null){
+					$("#thubm").attr('src',data.user_collection.user_erwei);
+					$("#thubm").attr('src1',data.user_collection.user_erwei);
+					$('#phone').val(data.user_collection.user_account);
+				}
+			}
+		});
+	</script>
+</html>

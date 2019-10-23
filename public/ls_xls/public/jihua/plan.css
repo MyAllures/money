@@ -1,0 +1,83 @@
+/* 顶部tab */
+.tab {
+	width:80%;
+	margin: 0.2rem auto;
+	border: 1px solid #38b8e2;
+	border-radius: 6px;
+}
+.tab ul li {
+	height: 0.45rem;
+	line-height: 0.45rem;
+}
+.activetab {
+	background: #38bffa;
+	color:#00325d ;
+	border-radius: 6px;
+}
+.loanlist{
+	width: 94%;
+	margin: 0 auto 0.2rem auto;
+}
+.loanlist ul li{
+	width: 1.12rem;
+	background: #474d84;
+	border-radius: 6px;
+	padding: 0.1rem 0;
+}
+.loanlist ul li a {
+	color:#b7bfe7 ;
+}
+.loanlist ul li+li{
+	margin-left: 0.1rem;
+}
+.nummoney {
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.loanlist ul li p{
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.haveyue {
+	width: 94%;
+	margin: 0 auto 0 auto;
+	background: #474c87;
+	color: #707eb2;
+	padding: 0.15rem 0.2rem;
+	border-radius: 6px;
+}
+.vlevel {
+	width: 0.3rem;
+	vertical-align: middle;
+	margin-left: 0.1rem;
+}
+/* 还款计划 */
+.repayment_plan {
+	width: 94%;
+	margin: 0.2rem auto;
+}
+.repayment_plan h3 {
+	color: #959ccd;
+	margin-bottom: 0.2rem;
+}
+.planlist {
+	width: 100%;
+	color: #959ccd;
+	padding: 0.3rem 0.2rem;
+	background: #353c6d;
+}
+.planlist ul li{
+	align-items: center;
+}
+.planlist ul li+li{
+	margin-top: 0.3rem;
+}
+.mainjindu {
+	height: 0.15rem;
+	border: 2px solid #40c2ed;
+	border-radius: 10px;
+	margin: 0 0.2rem;
+}
+.rightmoney {
+	width: 20%;
+}

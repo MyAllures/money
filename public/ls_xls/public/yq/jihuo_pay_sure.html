@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="有钱还 ">
+    <meta name="description" content="有钱还 ">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.min-2.1.4.js"></script>
+    <script src="js/common.js"></script>
+    <script type="text/javascript" src="js/flexible.js" ></script>
+    <script type="text/javascript" src="js/mui.min.js" ></script>
+    <script type="text/javascript" src="../layer_mobile/layer.js" ></script>
+    <script type="text/javascript" src="js/shangchuan.js" ></script>
+    <script src="../js/files.js?v=2019"></script>
+    <title>激活债务</title>
+</head>
+
+<body class="log_page">
+<div class="header">
+    <div class="header_fl" onclick="javasript:history.back(-1)"><img src="images/back.png"></div>
+    <h2 class="title">付款</h2>
+</div>
+<div class="index_page" style="padding: 1.5rem 0 0 0;">
+    <div style="font-size: 16px;color: #bacbe8;margin: 6px 0 10px 22px;">借款人信息</div>
+    <div style="width: 90%;margin: 10px auto;background-color:#343c6d;height: 70px;border-radius: 6px;">
+        <div style="font-size: 15px;padding: 10px;color: #808a9c;">姓名：<span id="user_name"></span></div>
+        <div style="font-size: 15px;padding:0 0 28px 10px;color: #808a9c;">身份证：<span id="user_card"></span></div>
+    </div>
+    <div style="width: 90%;margin: 20px auto;background-color:#343c6d;height: 270px;border-radius: 6px;">
+        <div style="width: 140px;height: 140px;margin: 20px auto;">
+            <img style="width: 140px;height: 140px;margin: 20px auto;" id="user_erwei">
+        </div>
+        <div style="font-size: 15px;padding-bottom: 6px;padding-top: 10px;color: #808a9c;text-align: center">付款二维码</div>
+        <div style="font-size: 15px;padding-bottom: 6px;color: #808a9c;text-align: center">微信账号：<span style="color: #35BFFD" id="user_account"></span></div>
+        <div style="font-size: 15px;padding-bottom: 6px;color: #808a9c;text-align: center">付款金额：<span style="color: #35BFFD" id="user_money"></span>元</div>
+    </div>
+    <div style="width: 90%;margin: 10px auto;height: 70px;border-radius: 6px;font-size: 16px;color: #808a9c">
+        <span style="font-size: 14px">请使用微信APP，扫描以上二维码付款<span style="color: #35BFFD">200.0</span>元，</span>
+        <span style="font-size: 17px;color: #d4a54c;">付款时在微信或支付宝订单备注您平台认证的姓名</span>
+    </div>
+    <div class="plan_file" disabled="disable">
+        <div class="plan_group up_group" >
+            <div class="plan_up">
+                <img src="images/ewm.jpg" id="thubm">
+                <input type="file" capture="camera" disabled="disable" onchange="previewImg(this,'#thubm')">
+            </div>
+            <p>打款凭证</p>
+        </div>
+    </div>
+    <input type="hidden" id="plan_id" value=""/>
+    <div style="width: 90%;margin: 10px auto;background-color: #35BFFD;height: 50px;border-radius: 6px;font-size: 20px;text-align: center;line-height: 50px;color: white;" id="pay">我已付款</div>
+</div>
+</body>
+<script type="text/javascript">
+    if(localStorage.getItem("token")==null){
+        window.location.href = "login.html"
+    }
+    var token=localStorage.getItem("token");
+    var can_pay=false;
+    var pay_id=document.cookie.split(";")[0].split("=")[1];
+    $.ajax({
+        type: 'post',
+        url:"/index.php/upload/getPayMess",
+        data: {
+            token: localStorage.getItem("token"),
+            pay_id:pay_id
+        },
+        success: function(e) {
+            console.log(e)
+            $('#user_name').html(e.get_user_name);
+            $('#user_card').html(e.get_user_card);
+            $('#user_erwei').attr('src',e.get_erwei);
+            $('#user_account').html(e.get_account);
+            $('#user_money').html(e.money);
+            $('#plan_id').val(e.id);
+            if(e.pay_img!=null){
+                $('#thubm').attr('src',e.pay_img);
+                $('#thubm').attr('src1',e.pay_img);
+            }
+            if(e.pay_status==1){
+                if(e.status==1){
+                    $('#pay').html('打款已确认');
+                    $('#pay').attr('disabled','disabled');
+                }else{
+                    can_pay=true;
+                    $('#pay').html('打款待确认');
+                }
+            }else{
+                $('#pay').html('待打款');
+                $('#pay').attr('disabled','disabled');
+            }
+        }
+    });
+
+    $('#pay').click(function () {
+        var id=$('#plan_id').val();
+        if(can_pay){
+            $.ajax({
+                type: 'post',
+                url:"/index.php/upload/Confirm_receipt",
+                data: {
+                    token: localStorage.getItem("token"),
+                    plan_id:id,
+                },
+                success: function(e) {
+                    layer.open({
+                        content: e.msg
+                        ,skin: 'msg'
+                        ,time: 2
+                    });
+                    if(e.code==1){
+                        setTimeout(function () {
+                            window.location.href = "pay_list.html"
+                        },2000)
+                    }
+
+                }
+            });
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,34 @@
+<form action="{:url()}" method="post" class="form_single">
+    <div class="box">
+        <div class="box-body">
+
+            <div class="row">                                
+                
+                
+                <div class="col-md-6">
+                    <div class="form-group">
+                      <label>微信号</label>
+                      <span class="">（微信号）</span>
+                      <input class="form-control" name="wx_account" placeholder="请输入微信号" value="{$info['wx_account']|default=''}" type="text">
+                    </div>
+                  </div>
+                
+                  
+            </div>
+
+            <div class="box-footer">
+
+                <input type="hidden" name="id" value="{$info['id']|default='0'}"/>
+
+                {include file="layout/edit_btn_group"/}
+
+            </div>
+
+        </div>
+    </div>
+</form>
+<!--<script type="text/javascript">
+    ob.setValue("status", {$info.status | default = 0
+    }
+    );
+</script>-->

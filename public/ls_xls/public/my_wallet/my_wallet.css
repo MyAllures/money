@@ -1,0 +1,62 @@
+/* 我的钱包 */
+.wallet_list {
+	width: 94%;
+	margin: 0.2rem auto;
+}
+.wallet_list ul li{
+	width: 100%;
+	background: #3d4475;
+	border-radius: 6px;
+}
+.wallet_list ul li+li{
+	margin-top: 0.2rem;
+}
+.tap1 {
+	padding: 0.2rem 0.2rem 0 0.2rem;
+}
+.tap2 {
+	position: relative;
+	padding:0.1rem 0.2rem 0.2rem;
+}
+.moneynum{
+	font-weight: normal;
+}
+.moneynum span {
+	font-size: 30px;
+}
+.tap2 p {
+	margin-top: 0.05rem;
+}
+.tap2 p span {
+	margin-left: 0.1rem;
+}
+.tixianbnt {
+	position: absolute;
+	right: 0.2rem;
+	bottom: 0.2rem;
+}
+.tixianbnt a {
+	display: block;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	padding: 0 0.2rem;
+	border-radius: 5px;
+}
+/* 钱包明细 */
+.walletmixi_list {
+	width: 100%;
+	margin: 0.1rem auto;
+}
+.walletmixi_list ul li{
+	background:#333d6d ;
+	margin-bottom: 0.1rem;
+	padding: 0.1rem 0.2rem;
+	width: 100%;
+	align-items: center;
+}
+.mingxi {
+	width: 75%;
+}
+.mxnum {
+	width: 25%;
+}

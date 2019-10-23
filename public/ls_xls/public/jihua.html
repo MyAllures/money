@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+ <html lang="zh-cmn-Hans" class="pixel-ratio-1" style="font-size: 150px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <link rel="stylesheet" href="jihua/weui.min.css">
+    <link rel="stylesheet" href="jihua/comm.css">
+    <link rel="stylesheet" href="jihua/all.css">
+    <link rel="stylesheet" href="jihua/plan.css">
+    
+    <script src="jihua/page.js" type="text/javascript" charset="utf-8"></script>
+    <title> 有钱还 </title>
+         <style type="text/css">
+          
+         </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-hd">
+        <div class="header">
+          <div class="header-left">
+           </div>
+          <div class="header-title text_fff">计划</div>
+          <div class="header-right">
+            
+          </div>
+        </div>
+      
+      </div>
+      <div class="page-bd">
+         <!-- 顶部切换-->
+         <div class="tab over_h">
+            <ul class="weui-flex tc fs28 text_maincolor">
+              <li class="weui-flex__item activetab">众筹计划</li>
+           <li class="weui-flex__item" ><a href="audit_up.html">还款计划</a></li>
+            </ul>
+         </div>
+         <!-- 贷款列表-->
+         <div class="loanlist">
+            <ul class="weui-flex" id="rte">
+              <li class="tc fs28">
+            <a href=" input_debt.html?type=1">
+              <div class="nummoney oneline">
+                +
+              </div>
+              <p>信用卡</p>
+            </a>
+          </li>
+          <li class="tc fs28">
+            <a href=" input_debt.html?type=2">
+            <div class="nummoney oneline">
+              +
+            </div>
+            <p>房贷</p>
+            </a>
+          </li>
+          <li class="tc fs28">
+            <a href=" input_debt.html?type=3">
+            <div class="nummoney oneline">
+              +
+            </div>
+            <p>车贷</p>
+            </a>
+          </li>
+          <li class="tc fs28">
+            <a href=" input_debt.html?type=4">
+            <div class="nummoney oneline">
+              +
+            </div>
+            <p>其他</p>
+            </a>
+          </li>
+            </ul>
+         </div>
+         <!-- 可还款余额-->
+         <div class="haveyue weui-flex fs28">
+             <div class="weui-flex__item">
+             可还款总额:<span class="text_maincolor fs30" id="total">￥0</span>
+             <img src="jihua/V0.png" class="vlevel">
+           </div>
+           <a href=" apply_up.html" class="text_maincolor">激活</a>
+         </div>
+         <!-- 还款计划-->
+         <div class="repayment_plan">
+            <h3 class="fs28">还款计划:</h3>
+          <div class="planlist">
+              <ul>
+                <li class="weui-flex fs28">
+              <div>第一阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/600
+              </div>
+            </li>
+            <li class="weui-flex fs28">
+              <div>第二阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/1800
+              </div>
+            </li>
+            <li class="weui-flex fs28">
+              <div>第三阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/5400
+              </div>
+            </li>
+            <li class="weui-flex fs28">
+              <div>第四阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/16200
+              </div>
+            </li>
+            <li class="weui-flex fs28">
+              <div>第五阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/48600
+              </div>
+            </li>
+            <li class="weui-flex fs28">
+              <div>第六阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/145800
+              </div>
+            </li>
+            <li class="weui-flex fs28">
+              <div>第七阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/291600
+              </div>
+            </li>
+			<li class="weui-flex fs28">
+              <div>第八阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/437400
+              </div>
+            </li>
+			<li class="weui-flex fs28">
+              <div>第九阶段</div>
+              <div class="weui-flex__item mainjindu">
+                
+              </div>
+              <div class="rightmoney">
+                0/594200
+              </div>
+            </li>
+			
+              </ul>
+          </div>
+         </div>
+      </div>
+      <!-- 固定底部tab-->
+      <div class="bottom-tabbar">
+        <a href=" index.html" class="bottom-tabbar__item ">
+          <span class="icon">
+            <img src="jihua/tab1_1.png">
+            <img class="lhimg" src="jihua/tab1.png">
+          </span>
+          <p class="label">首页</p>
+        </a>
+        <a href="javascript:void(0);" class="bottom-tabbar__item active ">
+          <span class="icon">
+            <img src="jihua/tab2_2.png">
+            <img class="lhimg" src="jihua/tab2.png">
+          </span>
+          <p class="label">计划</p>
+        </a>
+        <a href=" my_wallet.html" class="bottom-tabbar__item ">
+          <span class="icon">
+            <img src="jihua/tab3_3.png">
+            <img class="lhimg" src="jihua/tab3.png">
+          </span>
+          <p class="label">钱包</p>
+        </a>
+        <a href=" my_setting.html" class="bottom-tabbar__item ">
+          <span class="icon">
+            <img src="jihua/tab4_4.png">
+            <img class="lhimg" src="jihua/tab4.png">
+          </span>
+          <p class="label">我的</p>
+        </a>
+      </div>
+    </div>
+	<script language="javascript" src="inputzw/jquery-2.1.4.js">
+     <!-- <script src="jihua/all.js" type="text/javascript" charset="utf-8"></script></script><script language="javascript" src="jihua/jquery-weui.min.js"></script><script language="javascript" src="jihua/jquery.cookie.js"></script><script language="javascript" src="jihua/template-web.js"></script><script language="javascript" src="jihua/config.js"></script><script language="javascript" src="jihua/utils.js"></script><script language="javascript" src="jihua/api_member.js"></script><script language="javascript" src="jihua/api_public.js"></script><script language="javascript" src="jihua/api_account.js"></script><script language="javascript" src="jihua/api_transaction.js"></script><script language="javascript" src="jihua/api_shops.js"></script> -->
+    <script type="text/javascript">
+	var total=0;
+      
+			$.ajax({
+					type: 'post',
+					url:"/index.php/upload/getdata",
+					data: {
+						token: localStorage.getItem("token")
+					},
+					success: function(e) {
+						var token = e.msg;
+						console.log(e.data);
+						var d=e.data;
+						for(var index in d){
+						 
+						 //其实index 就是个索引
+						 
+						 var name =d[index].name;
+						 var account =parseFloat(d[index].account);
+						 total=total+account;
+						 var i =parseInt(d[index].type)-1;
+						 $("#rte li").eq(i).find("p").text(name);
+						 $("#rte li").eq(i).find("a").removeAttr('href');
+						 $("#rte li").eq(i).find(".nummoney").remove();
+						 $("#rte li").eq(i).find("a").append("<p>"+account+"</p>")
+						}
+						 $('#total').text("￥"+total);
+					}
+				});
+				 
+    </script>
+  
+  
+
+</body></html>

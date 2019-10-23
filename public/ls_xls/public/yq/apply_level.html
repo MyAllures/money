@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="keywords" content="有钱还 ">
+		<meta name="description" content="有钱还 ">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/jquery.min-2.1.4.js"></script>
+		<script src="js/common.js"></script>
+		<script type="text/javascript" src="js/flexible.js" ></script>
+		<title>升级</title>
+	</head>
+
+	<body class="log_page">
+		<div class="header">
+			<div class="header_fl" onclick="javasript:history.back(-1)"><img src="images/back.png"></div>
+			<h2 class="title">升级</h2>
+		</div>
+		<div class="page_main">
+			<div class="apply_main">
+				<div class="apply_top">
+					<p>原会员等级:<span>普通会员</span></p>
+					<p>升级为:<span>城市代理</span></p>
+				</div>
+				<div class="apply_code">
+					<div class="apply_tit flex">
+						<span class="active">微信支付</span><span>支付宝</span><span>账户余额</span>
+					</div>
+					<div class="apply_info">
+						<img src="images/ewm.jpg" alt="">
+						<p>付款金额:<span>0.00</span>元</p>
+					</div>
+					<div class="apply_info">
+						<img src="images/ewm.jpg" alt="">
+						<p>付款金额:<span>0.00</span>元</p>
+					</div>
+					<div class="apply_info">
+						<img src="images/ewm.jpg" alt="">
+						<p>付款金额:<span>0.00</span>元</p>
+					</div>
+				</div>
+				<div class="apply_att">
+					<p>请使用另一个手机的--扫码支付</p>
+					<p>付款后会自动激活信用卡，请勿重复支付</p>
+				</div>
+				<input type="submit" class="submit_btn" value="保存二维码">
+			</div>
+		</div>
+		
+		<script>
+			if(localStorage.getItem("token")==null){
+				window.location.href = "login.html"
+			}
+			$(".apply_info").eq(0).show();
+			$(".apply_tit span").click(function(){
+				$(".apply_tit span").removeClass("active");
+				$(this).addClass("active");
+				var n = $(this).index();
+				$(".apply_info").hide();
+				$(".apply_info").eq(n).show();
+			})
+
+		</script>
+	</body>
+
+</html>

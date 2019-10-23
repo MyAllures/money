@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title></title>
+		<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style_cai.css"/>
+		<link rel="stylesheet" type="text/css" href="css/scss.css" />
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/js.js" type="text/javascript"></script>
+		<style type="text/css">
+			.page{
+				padding:0 0.22rem;
+				background:#1E88E5;
+			}
+			.jjk {
+			    display: inline-block;
+			    width: 14.28%;
+			    float: left;
+			    text-align: center;
+			    color: #fff;
+			    position: relative;
+			    min-height:0.35rem;
+			}
+			.jjk_div{
+				margin:10px 0 50px 0;
+				font-size:14px;
+			}
+			.jjk>span {
+				line-height: 0.65rem;
+			    width: 100%;
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    font-size: 0.26rem;
+			}
+			.jjk_img {
+			    width:0.65rem;
+			}
+			.qd_btn {
+			    font-size:0.25rem;
+			    background: #13C3E8;
+			    padding:0.02rem 0.08;
+			    border: none;
+			    color: #fff;
+			    outline: none;
+			    border-radius: 5px;
+			}
+			.back_score{
+				font-size:0.32rem;
+				color:#fff;
+				font-weight: bold;
+				line-height: 0.4rem;
+				height: 0.4rem;
+			}
+			.fl-kk{
+				font-size:0.25rem;
+				color:#fff;
+			}
+			#aaa {
+				display: none;
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				background: rgba(0, 0, 0, 0.5);
+				z-index: 9998;
+			}
+			
+			#ddd{
+				display: none;
+				width: 6rem;
+			    height: auto;
+			    background: #fff;
+			    position: fixed;
+			    top: 35%;
+			    left: 0;
+			    right: 0;
+			    margin: auto;
+			    border-radius: 5px;
+			    z-index: 9999;
+			    text-align: center;
+			}
+			.jjj {
+				display: inline-block;
+			    line-height: 0.8rem;
+			    font-size: 0.32rem;
+			    width: 100%;
+			    text-align: center;
+			    background: #1E88E5;
+			    color: #fff;
+			    border-bottom-left-radius: 5px;
+			    border-bottom-right-radius: 5px;
+			    border: none;
+			}
+			.message{
+				padding: 0.5rem 0.2rem;
+			    font-size: 0.3rem;
+			    text-align: left;
+			}
+			.dd_div{
+				text-align: center;
+			    font-size: 0.34rem;
+			    line-height: 0.8rem;
+			    border-bottom: 1px solid #ddd;
+			}
+			.header .hele_on {
+			    width: .88rem;
+			    height: .88rem;
+			    position: absolute;
+			    right: 0px;
+			    bottom: 0px;
+			    background: url(images/fankuijiluo@2x.png) no-repeat center center;
+			    background-size: .33rem .38rem;
+			}
+			.history_times{
+				padding:0 0.1rem;
+			}
+			.active {
+			    background: #7D7D7D !important;
+			    opacity: 1 !important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<a href="index.html" class="hele"></a>
+			<h1 class="hetitle">签到</h1>
+			<a href="jifenmingxi.html" class="hele_on"></a>
+		</div>
+		<div id="page" class="page m4">
+			<div style="border-top:1px solid #fff;">
+				<div class="jjk_div">
+					<!--<div class="jjk" data="2019-01-03"><span>03</span></div>
+					<div class="jjk" data="2019-01-04"><span>04</span></div>
+					<div class="jjk" data="2019-01-05"><span>05</span></div>
+					<div class="jjk" data="2019-01-06"><span>06</span></div>
+					<div class="jjk" data="2019-01-07"><span>07</span></div>
+					<div class="jjk" data="2019-01-08" data1="1"><img src="images/bg_qd.png" class="jjk_img"><span>08</span></div>
+					<div class="jjk" data="2019-01-09"><span>09</span></div>
+					<div style="clear:both;"></div>-->
+				</div>
+				<div>
+					<div class="back_score"></div>
+					<div style="padding-bottom:0.2rem;">
+						<div class="fl-l fl-kk" style="">
+							<span>当前积分</span>
+							<b>|</b>
+							<span>已累计签到<span class="history_times"></span>天</span>
+						</div>
+						<div class="fl-r">
+							<button type="button" class="qd_btn">签到</button>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="aaa"></div>
+		<div id="ddd">
+			<div class="dd_div">
+				签到成功
+			</div>
+			<div class="am-u-sm-12 message"></div>
+			<div style="clear:both;">
+				<span class="jjj qr_btn">确定</span>
+			</div>
+		</div>
+		<script src="js/files_index.js?v=2019"></script>
+		<script src="js/sign_in.js?v=2019-1-11"></script>
+	</body>
+
+	</html>

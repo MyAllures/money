@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="keywords" content="有钱还 ">
+		<meta name="description" content="有钱还 ">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style_jd.css" />
+		<script src="js/jquery.min-2.1.4.js"></script>
+		<script src="js/common.js"></script>
+		<script type="text/javascript" src="js/flexible.js" ></script>
+		<script type="text/javascript" src="js/mui.min.js" ></script>
+		<script type="text/javascript" src="../layer_mobile/layer.js" ></script>
+		<title>计划</title>
+	</head>
+
+	<body class="log_page">
+		<div class="header">
+			<!--<div class="header_fl" onclick="javasript:history.back(-1)"><img src="images/back.png"></div>-->
+			<h2 class="title">计划</h2>
+		</div>
+		<div class="plan_page">
+			<div class="plan_tit">
+				<a class="active" href="plan.html">众筹计划</a>
+				<a href="plan_repay.html">还款计划</a>
+			</div>
+			<ul class="plan_type flex">
+				<li>
+					<a href="html/plan_type1.html"><h4>+</h4><p>信用卡</p></a>
+				</li>
+				<li>
+					<a href="html/plan_type2.html"><h4>+</h4><p>房贷</p></a>
+				</li>
+				<li>
+					<a href="html/plan_type3.html"><h4>+</h4><p>车贷</p></a>
+				</li>
+				<li>
+					<a href="html/plan_type4.html">
+							<h4>+</h4>
+							<p>其他</p>
+					</a>
+				</li>
+			</ul>
+			<div class="plan_data">可还总额：<span id="total"></span><img id="vipImg"><a class="jh_btn">激活</a></div>
+			<div class="plan_plan">
+				<h3>还款计划</h3>
+				<div style="width: 100%;color: #959ccd;background: #424D84;" id="plan_list">
+					<!--
+					<div style="display: flex;flex-direction: row;">
+						<div style="font-size: 14px;width: 18%;margin-left: 4px">第一阶段</div>
+						<div style="width: 60%">
+							<div  style="width: 100%;margin-top: 4px;height: 12px;border: 2px solid #35BFFD;border-radius: 10px">
+								<div class="progress-bar" style="width: 33%;height: 10px;background-color: #35BFFD;margin: -1px 0 0 -1px"></div>
+							</div>
+						</div>
+						<div style="font-size: 15px;width: 20%;padding-left: 1%"><a href="jihuo_pay.html" style="color: #35BFFD;">去确认</a></div>
+					</div>
+					-->
+				</div>
+			</div>
+		</div>
+		<div class="footer flex">
+			<a href="../index.html">
+				<img src="images/main_tab0_normal.png">
+				<p>首页</p>
+			</a>
+			<a class="active" href="plan.html">
+				<img src="images/main_tab1_checked.png">
+				<p>计划</p>
+			</a>
+			<a href="wallet.html">
+				<img src="images/main_tab4_normal.png">
+				<p>钱包</p>
+			</a>
+			<a href="user.html">
+				<img src="images/main_tab3_normal.png">
+				<p>我的</p>
+			</a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		if(localStorage.getItem("token")==null){
+			window.location.href = "login.html"
+		}
+		var total=0;
+		var can_jh=false;
+		$.ajax({
+			type: 'post',
+			url:"/index.php/upload/getdata",
+			data: {
+				token: localStorage.getItem("token")
+			},
+			success: function(e) {
+				var token = e.msg;
+				var d=e.data;
+				var text=e.text;
+				for(var index in d){
+					//其实index 就是个索引
+					var name =d[index].name;
+					var account =parseFloat(d[index].account);
+					if(d[index].status==1){
+						total=total+account;
+					}
+					var i =parseInt(d[index].type)-1;
+					$(".plan_type li").eq(i).find("p").text(name);
+					if(d[index].status==0){
+						$(".plan_type li").eq(i).find("a").removeAttr('href');
+						$(".plan_type li").eq(i).find("h4").text('(审核中)');
+					}else if(d[index].status==2){
+						$(".plan_type li").eq(i).find("h4").text('(驳回)');
+					}else{
+						$(".plan_type li").eq(i).find("a").removeAttr('href');
+						$(".plan_type li").eq(i).find("h4").text(account);
+					}
+
+					/*for(var a=0;a<4;a++){
+						if(a!=i){
+							$(".plan_type li").eq(a).find("a").removeAttr('href');
+						}
+					}*/
+				}
+				$('#total').text("￥"+total);
+				if(total>0){
+					can_jh=true;
+				}
+				var level=e.user.level-1;
+				$('#vipImg').attr('src','images/vip_'+level+'.png');
+
+				if(text != ''){
+					$('#plan_list').append(text);
+				}
+				if(e.user_parent_plan==null){
+					$('.jh_btn').html('激活');
+				}else{
+					if(e.count_sure==2){
+						if(e.up==null){
+							$('.jh_btn').html('去升级');
+						}else{
+							if(e.up.status==0){
+								$('.jh_btn').html('升级付款');
+							}else{
+								$('.jh_btn').html('去升级');
+							}
+						}
+					}else{
+						$('.jh_btn').html('去付款');
+					}
+				}
+			}
+		});
+		$('.jh_btn').click(function () {
+			var html=$(this).html();
+			if(can_jh){
+				if(html=='激活'){
+					layer.open({
+						content: '确认是否激活？'
+						,btn: ['确定', '取消']
+						,yes: function(index){
+							$.ajax({
+								type: 'post',
+								url:"/index.php/upload/addPlanUser",
+								data: {
+									token: localStorage.getItem("token")
+								},
+								success: function(e) {
+									if(e){
+										window.location.href = "jihuo.html";
+										layer.close(index);
+									}
+								}
+							});
+
+						}
+					});
+				}else{
+					if(html=='去付款'){
+						window.location.href = "jihuo_t.html";
+					}
+					if(html=='升级付款'){
+						window.location.href = "upgrade.html";
+					}
+					if(html=='去升级'){
+						$.ajax({
+							type: 'post',
+							url:"/index.php/upload/getIsJhUser",
+							data: {
+								token: localStorage.getItem("token")
+							},
+							success: function(e) {
+								if(e.code==0){
+									layer.open({
+										content: e.msg
+										,skin: 'msg'
+										,time: 2
+									});
+								}else{
+									layer.open({
+										content: e.msg
+										,btn: ['确定', '取消']
+										,yes: function(index){
+											$.ajax({
+												type: 'post',
+												url:"/index.php/upload/addUpgradeMess",
+												data: {
+													token: localStorage.getItem("token")
+												},
+												success: function(e) {
+													if(e.code==0){
+														window.location.href = "upgrade.html";
+														layer.close(index);
+													}
+												}
+											});
+										}
+									});
+								}
+
+							}
+						});
+					}
+				}
+			}else{
+				layer.open({
+					content: '请先上传债务或等待审核'
+					,skin: 'msg'
+					,time: 2
+				});
+			}
+
+		})
+	</script>
+</html>

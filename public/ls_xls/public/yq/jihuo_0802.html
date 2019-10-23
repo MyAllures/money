@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="有钱还 ">
+    <meta name="description" content="有钱还 ">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.min-2.1.4.js"></script>
+    <script src="js/common.js"></script>
+    <script type="text/javascript" src="js/flexible.js" ></script>
+    <script type="text/javascript" src="js/mui.min.js" ></script>
+    <title>激活债务</title>
+</head>
+<style>
+
+</style>
+<body class="log_page">
+<div class="header">
+    <div class="header_fl" onclick="javasript:history.back(-1)"><img src="images/back.png"></div>
+    <h2 class="title">激活债务</h2>
+</div>
+<div class="index_page" style="padding: 1.5rem 0 0 0;">
+    <div id="plan_list">
+        <div style="font-size: 16px;color: #bacbe8;margin: 6px 0 10px 10px;">激活任务(<span id="total"></span>/2)</div>
+<!--        <div style="display: flex;flex-direction: row;height: 60px;background-color: #343c6d;width: 100%;border-bottom: 1px solid #535358;">-->
+<!--            <img src="images/logo.png" id="parent_img" style="width: 40px;height: 40px;border-radius: 20px;margin: 10px">-->
+<!--            <p style="font-size: 14px;color: white;line-height: 40px;width:20%;margin: 10px;" id="parent_name"></p>-->
+<!--            <p style="font-size: 14px;color: #35BFFD;line-height: 40px;width: 20%;margin: 10px;">￥200.0</p>-->
+<!--            <p style="margin: 10px 10px 10px 40px;">-->
+<!--                <a href="jihuo_pay.html" style="display: block; padding: .35rem; color: #bacbea; font-size: .41rem; background: url(images/icon_more.png) no-repeat 96% center;background-size: .24rem auto;">未付款</a>-->
+<!--                <input type="hidden" class="parent_id" value=""/>-->
+<!--            </p>-->
+<!--        </div>-->
+<!--        <div style="display: flex;flex-direction: row;height: 60px;background-color: #343c6d;width: 100%;border-bottom: 1px solid #535358;">-->
+<!--            <img src="images/logo.png" style="width: 40px;height: 40px;border-radius: 20px;margin: 10px" id="parent_up_img">-->
+<!--            <p style="font-size: 14px;color: white;line-height: 40px;width:20%;margin: 10px;" id="parent_up_name"></p>-->
+<!--            <p style="font-size: 14px;color: #35BFFD;line-height: 40px;width: 20%;margin: 10px;">￥200.0</p>-->
+<!--            <p style="margin: 10px 10px 10px 40px;">-->
+<!--                <a href="jihuo_pay.html" style="display: block; padding: .35rem; color: #bacbea; font-size: .41rem; background: url(images/icon_more.png) no-repeat 96% center; 	background-size: .24rem auto;">未付款</a>-->
+<!--                <input type="hidden" class="parent_up_id" value=""/>-->
+<!--            </p>-->
+<!--        </div>-->
+<!--        <div style="font-size: 16px;color: #bacbe8;margin: 20px 0 10px 10px;">寻找还款人任务(<span>0</span>/3)</div>-->
+<!--        <div style="display: flex;flex-direction: row;height: 60px;background-color: #343c6d;width: 100%;border-bottom: 1px solid #535358;">-->
+<!--            <img src="images/logo.png" style="width: 40px;height: 40px;border-radius: 20px;margin: 10px">-->
+<!--            <p style="font-size: 14px;color: white;line-height: 40px;width:20%;margin: 10px;">龙*心</p>-->
+<!--            <p style="font-size: 14px;color: #35BFFD;line-height: 40px;width: 20%;margin: 10px;">￥200.0</p>-->
+<!--            <p style="margin: 10px 10px 10px 40px;"><a href="jihuo_pay.html" style="display: block; padding: .35rem; color: #bacbea; font-size: .41rem; background: url(images/icon_more.png) no-repeat 96% center; 	background-size: .24rem auto;">未付款</a></p>-->
+<!--        </div>-->
+<!--        <div style="display: flex;flex-direction: row;height: 60px;background-color: #343c6d;width: 100%;border-bottom: 1px solid #535358;">-->
+<!--            <img src="images/logo.png" style="width: 40px;height: 40px;border-radius: 20px;margin: 10px">-->
+<!--            <p style="font-size: 14px;color: white;line-height: 40px;width:20%;margin: 10px;">龙*心</p>-->
+<!--            <p style="font-size: 14px;color: #35BFFD;line-height: 40px;width: 20%;margin: 10px;">￥200.0</p>-->
+<!--            <p style="margin: 10px 10px 10px 40px;"><a href="jihuo_pay.html" style="display: block; padding: .35rem; color: #bacbea; font-size: .41rem; background: url(images/icon_more.png) no-repeat 96% center; 	background-size: .24rem auto;">未付款</a></p>-->
+<!--        </div>-->
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    if(localStorage.getItem("token")==null){
+        window.location.href = "login.html"
+    }
+    $.ajax({
+        type: 'post',
+        url:"/index.php/upload/getUserPlan",
+        data: {
+            token: localStorage.getItem("token")
+        },
+        success: function(e) {
+            $('#plan_list').append(e.list);
+            $('#total').html(e.total);
+        }
+    });
+    function gotoPay(id) {
+        console.log(id);
+    }
+    // $.ajax({
+    //     type: 'post',
+    //     url:"/index.php/upload/getUserDown",
+    //     data: {
+    //         token: localStorage.getItem("token")
+    //     },
+    //     success: function(e) {
+    //         console.log(e)
+    //     }
+    // });
+</script>
+</html>

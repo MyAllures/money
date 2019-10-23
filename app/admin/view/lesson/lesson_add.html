@@ -1,0 +1,45 @@
+<form action="{:url()}" method="post" class="form_single">
+    <div class="box">
+      <div class="box-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>课程名称</label>
+              <span>（课程名称）</span>
+              <input class="form-control" name="name" value="{$info['name']}" placeholder="请输入课程名称" type="text">
+            </div>
+          
+            <div class="form-group">
+              <label>课程描述</label>
+              <span>（课程描述）</span>
+              <input class="form-control" name="describe" value="{$info['describe']}" placeholder="请输入课程描述" type="text">
+            </div>
+          
+            <div class="form-group">
+              <label>金额</label>
+              <span>（金额）</span>
+              <input class="form-control" name="money" value="{$info['money']}" placeholder="请输入确认金额" type="text">
+            </div>
+          
+            <div class="form-group">
+              <label>时间长</label>
+              <span>（时间长）</span>
+              <input class="form-control" name="time_limit" value="{$info['time_limit']}" placeholder="请输入时间长" type="text">
+            </div>
+          
+               <div class="form-group">
+                   <label>是否开启</label>
+                   <select name="status" >
+                       <option value="1">开启</option>    
+                       <option value="0">关闭</option>    
+                   </select>
+                </div>
+           </div>
+        </div>
+      </div>
+      <div class="box-footer">
+          <input type="hidden" name="id" value="{$info['id']}" >
+        {include file="layout/edit_btn_group"/}
+      </div>
+    </div>
+</form>

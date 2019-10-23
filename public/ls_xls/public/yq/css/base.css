@@ -1,0 +1,70 @@
+*{margin: 0;padding: 0; list-style: none; border: 0;
+	font-family: "PingFangSC-Regular", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; 
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+a{text-decoration: none;outline: none; cursor: pointer;}
+a:focus,input:focus,textarea:focus,select:focus,button:focus{outline: none;}
+a{blr:expression(this.onFocus=this.blur());}
+img{outline: none;max-width:100%;}
+body,button,input,select,textarea{
+	font-family: "PingFangSC-Regular", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+i,em{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+html,body{width: 100%; height: 100%; max-width: 768px; margin: 0 auto;}
+html{-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;}
+body{line-height:1.3; background: #efeff4;}
+
+.flex{display: -webkit-flex; display: flex; -webkit-justify-content: space-between; justify-content: space-between;-webkit-align-items: center;
+	align-items: center;
+}
+
+.mui-toast-container {
+	line-height: 17px;
+	position: fixed;
+	z-index: 9999;
+	bottom: 50px;
+	left: 50%;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	opacity: 0
+}
+
+.mui-toast-container.mui-active {
+	opacity: .9
+}
+
+.mui-toast-message {
+	font-size: 14px;
+	padding: 10px 25px;
+	text-align: center;
+	color: #fff;
+	border-radius: 6px;
+	background-color: #323232
+}
+
+
+/*导航条*/
+.header{width: 100%; height: 1.26rem; background: #343c6d; color: #fff; line-height: 1.26rem; position: fixed;top: 0; max-width: 768px; z-index: 100;}
+.header .header_fl{position: absolute; top: 0; left: 0; width: 16%; text-align: center;}
+.header .header_fl img{width: .3rem;}
+.header h2{font-size: .45rem; font-weight: normal; text-align: center;}
+.header .header_fr{width: 24%; position: absolute;top: 0; right: 0; text-align: center; font-size: .38rem; color: #ffff;}
+.page_main{padding-top: 1.26rem;}
+
+.footer{width: 100%; height: 1.44rem; background: #fff; position: fixed; left: 0; bottom: 0; max-width: 768px; z-index: 100;}
+.footer a{flex: 1; text-align: center; color: #cdcdcf;}
+.footer a img{width: .9rem; display: block; margin: 0 auto;}
+.footer a p{font-size: .36rem;}
+.footer a.active{color: #28cafe;}
+
+/*木有内容*/
+.no_cont{text-align: center; padding: 6rem .5rem 0;}
+.no_cont img{width: 1.6rem; display: block; margin: 0 auto;}
+.no_cont p{font-size: .38rem; color: #98aece; margin-top: .3rem;}
+
+
+
+

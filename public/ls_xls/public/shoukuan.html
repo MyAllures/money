@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053) input_debt.html -->
+<html lang="zh-cmn-Hans" class="pixel-ratio-1" style="font-size: 150px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+		<link rel="stylesheet" href=" inputzw/weui.min.css">
+		<link rel="stylesheet" href=" inputzw/comm.css">
+		<link rel="stylesheet" href=" inputzw/all.css">
+		<link rel="stylesheet" href=" inputzw/forget_password.css">
+		<link rel="stylesheet" href=" inputzw/paycode.css">
+		<script src=" inputzw/page.js" type="text/javascript" charset="utf-8"></script>
+		<title> 我的收款码</title>
+	</head>
+	<body>
+
+
+		<div class="page">
+			<div class="page-hd">
+				<div class="header mainbgc">
+					<div class="header-left">
+						<a href="javascript:history.go(-1)" class="left-arrow text_fff"></a>
+					</div>
+					<div class="header-title text_fff">收款方式</div>
+					<div class="header-right">
+						<a href=" input_debt.html#"></a>
+					</div>
+				</div>
+
+			</div>
+			<div class="page-bd">
+
+				<div class="shuruinout">
+					<form id="form1" class="" method="post" action="/index.php/upload/shoukuansave">
+						<div class=" weui-cells">
+						   
+							<div class="weui-cell mukuai fs28">
+								<div class="weui-cell__hd"><label class="weui-label">收款渠道</label></div>
+								<div class="weui-cell__bd">
+									<input class="weui-input text_maincolor" name="matype" id="matype" value="微信或支付宝" type="text" placeholder="微信或支付宝" format="empty" f-name="微信或支付宝">
+								</div>
+							</div>
+						
+							<div class="weui-cell mukuai fs28">
+								<div class="weui-cell__hd"><label class="weui-label">帐号</label></div>
+								<div class="weui-cell__bd">
+									<input class="weui-input text_maincolor" type="text" id="username" name="username" value="member123" format="empty" f-name="member123" placeholder="member123">
+								</div>
+							</div>
+						
+						</div>
+						<div class="upcodeimg">
+							
+							<input type="hidden" name="ID" value="{{ID}}">
+							<input type="hidden" name="token" id="token" value="">
+							<input type="hidden" name="type" id="type" value="">
+							<input type="hidden" name="code_type" value="支付宝">
+							<div class="uploadpingzheng">
+								<div class="uploadimg tc">
+									<div class="weui-gallery" id="gallery">
+										<span class="weui-gallery__img" id="galleryImg"></span>
+										<div class="weui-gallery__opr">
+											<a href="javascript:" class="weui-gallery__del">
+												<i class="weui-icon-delete weui-icon_gallery-delete"></i>
+											</a>
+										</div>
+									</div>
+									<div class="weui-uploader__bd">
+										<input type="hidden" name="code_url" value="{{code_url}}" id="code_url">
+										<ul class="weui-uploader__files" id="uploaderFiles">
+											
+										</ul>
+										<div class="weui-uploader__input-box">
+											<input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="uptisdhi tc fs28">点击上传收款二维码</p>
+						</div>
+						
+						
+						<div class="btn_sub">
+							<button type="button" class="mainbgc_textcfff fs28" id="datapost">保存</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<script language="javascript" src=" inputzw/jquery-2.1.4.js">
+		</script><script language="javascript" src=" inputzw/jquery-weui.min.js"></script>
+		<script language="javascript" src=" inputzw/jquery.cookie.js"></script>
+		</script><script language="javascript" src=" inputzw/config.js">
+		</script><script language="javascript" src=" inputzw/utils.js">
+		</script><script language="javascript" src=" inputzw/api_member.js">
+		</script><script language="javascript" src=" inputzw/api_public.js">
+		</script><script language="javascript" src=" inputzw/api_account.js">
+		</script><script language="javascript" src=" inputzw/api_transaction.js">
+		</script><script language="javascript" src=" inputzw/api_shops.js"></script>
+
+		<script type="text/html" id="form_template">
+
+		</script>
+		<script type="text/html" id="miane_temp">
+			{{each msg item i}}
+			  <li>
+			  	<p class="miane_temp_{{item.money}}" data_n="{{item.money}}">{{item.money}}</p>
+			  </li>
+			{{/each}}
+		</script>
+		<script type="text/javascript">
+			//var codeid = utils.getUrlParam("id");
+			var code_price = 0;
+			var img_url = "";
+			function getParam(name) {  
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");  
+				var r = location.search.substr(1).match(reg);  
+				if (r != null) return unescape(decodeURI(r[2])); 
+				return null;  
+			}
+			function showipload() {  
+				$("#uploaderInput").click();
+			}
+			$("#type").val(getParam("type"));
+			$("#token").val(localStorage.getItem("token"));
+			document.getElementById("uploaderInput").addEventListener("change", function(e) {
+				var files = this.files;
+				var reader = new FileReader();
+				reader.readAsDataURL(files[0]);
+				reader.onload = function(e) {
+					var dx = (e.total / 1024) / 1024;
+					if (dx >= 2) {
+						alert("文件大小大于2M");
+						return;
+					}
+					var result = this.result; //这里就是转化之后的DataURL
+					config.upload(result, function(e) {
+						console.log(e)
+						if (e.code == 0) {
+							$('.weui-uploader__input-box').addClass('addposition');
+							$.alert(e.msg);
+							img_url = e.url;
+							console.log(img_url)
+							$("#uploaderFiles").html("");
+							$("#code_url").val(img_url);
+							var txt1="<li><img src="+img_url+"></img><li>";    
+							$("#uploaderFiles").append(txt1);
+							<!-- $('#up_image').show(); -->
+							$('.weui-uploader__input-box').css('opacity', '0')
+							<!-- $("#up_image").attr("src", img_url); -->
+						} else {
+							$.alert(e.msg)
+						}
+					})
+			
+				}
+			})
+			$("#datapost").click(function() {
+					var total=localStorage.getItem("total")?localStorage.getItem("total"):0;
+							 if($("#name").val()==''){
+								  $.toast.prototype.defaults.duration = 2000;
+								  $.toast('请选择债务类型', "text");
+								  return;
+							  } 
+							 if ($("#account").val() == '') {
+								$.toast.prototype.defaults.duration = 2000;
+								$.toast('请上传债务类金额', "text");
+								return;
+							}
+							console.log(parseFloat(total));
+							console.log(parseFloat($("#account").val()));
+							var newtotal=parseFloat(total)+parseFloat($("#account").val());
+							localStorage.setItem("total",newtotal);
+							
+					  $("#form1").submit();
+						
+					});
+			$.ajax({
+					type: 'post',
+					url:"/index.php/upload/getshoukuandata",
+					data: {
+						token: localStorage.getItem("token")
+					},
+					success: function(e) {
+						var token = e.msg;
+						console.log(e.data);
+						var d=e.data;
+						$("#username").val(d.account_name)
+						if(d.shoukuan_pic)
+						{
+						$(".weui-uploader__input-box").hide();
+						var txt1="<li onclick='showipload()'><img src="+d.shoukuan_pic+"></img><li>";    
+						$("#uploaderFiles").append(txt1);
+						
+						}
+					}
+				});
+		</script>
+
+	
+
+</body></html>

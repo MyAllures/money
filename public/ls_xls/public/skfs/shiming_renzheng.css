@@ -1,0 +1,50 @@
+.upcodeimg {
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+.uptitles {
+	color:#a6b3d9 ;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	position: relative;
+}
+.uptitles::before{
+	content: '';
+	font-size: 0;
+	width: 15%;
+	height: 1px;
+	background:#737fac ;
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	margin-top: -0.5px;
+}
+.uptitles::after{
+	content: '';
+	font-size: 0;
+	width: 15%;
+	height: 1px;
+	background:#737fac ;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	margin-top: -0.5px;
+}
+.uploadpingzheng {
+	padding-top: 0.25rem;
+}
+.uptisdhi {
+	padding: 0.1rem 0.3rem;
+}
+.uptisdhi span{
+	display: inline-block;
+	padding: 0.03rem 0.1rem;
+}
+/* 收款方式 */
+.miaosus {
+	color: #b8beeb;
+	margin-top: 0.2rem;
+}
+.sendcode {
+	padding-right: 0.2rem;
+}

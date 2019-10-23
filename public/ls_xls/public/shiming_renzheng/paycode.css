@@ -1,0 +1,165 @@
+.tabtitle {
+	width: 94%;
+	margin: 0.1rem auto 0.15rem auto;
+	padding: 0.15rem 0;
+}
+.activetab {
+	color: #e94c6c;
+	position: relative;
+}
+.activetab::after{
+	content: '';
+	position: relative;
+	display: block;
+	bottom: -0.12rem;
+	left: 50%;
+	width: 24%;
+	margin-left: -12%;
+	height: 0;
+	border-bottom: 2px solid #e94c6c;
+}
+/* 收款码 */
+.codelist {
+	width: 94%;
+	margin: 0 auto 0.2rem auto;
+}
+/* 收款码列表 */
+.lists ul li {
+	padding: 0.2rem 0.2rem 0.15rem 0.2rem;
+	margin-bottom: 0.15rem;
+}
+.zhanghaoxin {
+	
+}
+.caozuolist {
+	margin-top: 0.1rem;
+}
+.caozuolist span { 
+	/
+	
+	background: #f5f5f5;
+	padding: 0.06rem 0.1rem;
+	display: inline-block;
+	margin-left: 0.1rem;
+}
+.mingaps {
+	margin: 0.05rem 0;
+}
+/* 添加收款码 */
+.addcode {
+	width: 100%;
+	padding: 0.4rem 0;
+}
+.addcode img{
+	width: 0.3rem;
+	vertical-align:bottom;
+	margin-right: 0.05rem;
+}
+
+/* 修改收款码 */
+.uploadpingzheng {
+	width: 94%;
+	margin: 0 auto;
+	padding: 0.55rem 0.15rem 0.25rem;
+	position: relative;
+	}
+
+.aodename {
+	position: absolute;
+	background: #04BE02;
+	left: 0;
+	top:0;
+	padding: 0 0.15rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	border-radius: 6px 0 0.2rem 0;
+}
+.zhifubbgc {
+	background: #16a7ef;
+}
+.btnlst button {
+	outline: none;
+}
+.upcodeimg {
+	width: 100%;
+	margin: 0.2rem auto;
+	background: #394572;
+	border-radius: 6px;
+	position: relative;
+}
+.weui-uploader__bd {
+	position: relative;
+}
+.weui-uploader__input-box {
+	margin: 0 auto;
+	float: none;
+	width:2rem ;
+	height: 2rem;
+}
+.weui-uploader__file {
+	width:2rem ;
+	height: 2rem;
+	margin: 0 auto;
+	float: none;
+	background-size: 100% 100%;
+}
+.addposition{
+	position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1.25rem;
+	opacity: 0;
+}
+.shuruinout {
+	width: 94%;
+	margin: 0.2rem auto;
+}
+.shuruinout .weui-cell{
+	background: #394574;
+}
+.btn_sub {
+	margin-top: 0.4rem;
+}
+.btn_sub button{
+	width: 100%;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	outline: none;
+	border-color:transparent;
+}
+/* 收款面额 */
+.paynums {
+	width:95%;
+	margin: 0.2rem auto;
+}
+.paynums  ul li{
+	float: left;
+	width: 25%;
+	padding: 0 2%;
+	margin-top: 0.2rem;
+	
+}
+.paynums  ul li p {
+	border: 1px solid #999999;
+	line-height: 0.46rem;
+}
+.paynums  ul li .selectp{
+	background:#f3744e ;
+	border-color: #f3744e;
+	color: #fff;
+}
+.weui-uploader__bd {
+	margin-right:0;
+}
+
+#up_image {
+	width: 100%;
+	height: 90%;
+}
+.uptisdhi {
+	padding: 0.2rem 0 0.3rem;
+	color: #737fac;
+}
+.weui-label {
+	color: #9ca8d5;
+}

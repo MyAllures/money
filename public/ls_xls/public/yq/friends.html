@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>有钱还</title>
+	<link rel="stylesheet" type="text/css" media="all" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../css/style_cai.css" />
+
+	<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+	<script src="../js/js.js" type="text/javascript"></script>
+
+</head>
+<body style="background-color: #2a3563">
+<!--头部-->
+<div class="header" style="background-color: #343c6d">
+	<a href="user.html" class="hele"></a>
+	<h1 class="hetitle" style="display: block">邀请商户</h1>
+	<a class="header_fr" href="friends_log.html" style="position:absolute;top: 0;right: 18px;color: white;font-size: 14px">好友列表</a>
+</div>
+<div id="page" class="page m">
+	<div class="ercode" style="background-color: #343c6d">
+		<div class="code">
+			<img src="" class="share_qrcode" style="width:80%;" alt="" />
+		</div>
+		<p class="nub font24 cola5" style="margin-top: 0.4rem">邀请码：<span class="code_1" style="font-size: 18px;color: #48a0ff;"></span></p>
+		<div style="display: flex;flex-direction: row">
+			<a class="btn" style="margin-left: 30%">
+				<button class="btnSure font34 copyurl" onclick="" type="button" id="test" data-clipboard-action="copy" data-clipboard-target="#foo" aria-label="复制成功！">复制邀请链接</button>
+			</a>
+			<!--
+			<a class="btn" style="margin-left: 18%;background-color: darkgray;margin-right: 10px">
+				<button class="btnSure font34" onclick="" type="button" id="saveimg">保存为图片</button>
+			</a>
+			-->
+		</div>
+	</div>
+	<input type="text" id="foo" style="opacity: 0;">
+<!--
+	<div style="color: #676d90;margin: 0 0 0 20px">
+		<p>1、每推荐一个用户注册可得50元保证金，可提现</p>
+		<p>2、好友每次还款可获得5%-10%手续费提成</p>
+		<p>3、好友每次众筹可获得3%-8%收益分成</p>
+	</div>
+	-->
+</div>
+<script>
+	if(localStorage.getItem("token")==null){
+		window.location.href = "login.html"
+	}
+</script>
+<script src="../js/files_index.js?v=2019"></script>
+<script src="../js/clipboard.min.js"></script>
+<script src="../js/my_invite.js?v=2019-1-4-011"></script>
+</body>
+</html>
+

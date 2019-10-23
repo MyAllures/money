@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="keywords" content="有钱还 ">
+		<meta name="description" content="有钱还 ">
+		<link rel="stylesheet" href="../../../css/base.css">
+		<link rel="stylesheet" href="../../../css/style.css" />
+		<script src="../../../js/jquery.min-2.1.4.js"></script>
+		<script src="../../../js/common.js"></script>
+		<script type="text/javascript" src="../../../js/flexible.js" ></script>
+		<title>首页</title>
+	</head>
+
+	<body class="log_page">
+		<div class="header index_header">
+			<a class="header_fl" href="notice.html"><img src="../../../images/icon_notice.png"></a>
+			<h2 class="title">有钱还</h2>
+			<a class="header_fr" href="kefu.html"><img src="../../../images/icon_msg.png"></a>
+		</div>
+		<div class="index_page">
+			<div class="swiper-container banner_slide">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../../../images/banner.png" alt=""></div>
+					<div class="swiper-slide"><img src="../../../images/banner2.jpg" alt=""></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="section">
+				<img src="../../../images/index.jpg" alt="">
+			</div>
+			<div class="section">
+				<img src="../../../images/index2.jpg" alt="">
+			</div>
+			<div class="section">
+				<h3>有钱还学院<span>学习更多还卡知识拜托卡奴</span></h3>
+				<ul class="card_list flex">
+					<li><a href="/index/index/card_detail.html">
+						<img src="../../../images/card.jpg">
+					</a></li>
+					<li><a href="/index/index/card_detail2.html">
+						<img src="../../../images/card2.jpg">
+					</a></li>
+				</ul>
+				<ul class="card_list flex">
+					<li><a href="/index/index/card_detail3.html">
+						<img src="../../../images/card3.jpg">
+					</a></li>
+					<li><a href="/index/index/card_detail4.html">
+						<img src="../../../images/card4.jpg">
+					</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer flex">
+			<a class="active" href="/index/index/index.html">
+				<img src="../../../images/main_tab0_checked.png">
+				<p>首页</p>
+			</a>
+			<a href="/index/Plan/plan.html">
+				<img src="../../../images/main_tab1_normal.png">
+				<p>计划</p>
+			</a>
+			<a href="/index/Wallet/wallet.html">
+				<img src="../../../images/main_tab4_normal.png">
+				<p>钱包</p>
+			</a>
+			<a href="/index/User/user.html">
+				<img src="../../../images/main_tab3_normal.png">
+				<p>我的</p>
+			</a>
+		</div>
+		<link rel="stylesheet" href="../../../css/swiper.min.css" />
+		<script type="text/javascript" src="../../../js/swiper.min.js" ></script>
+		<script>
+			if(localStorage.getItem("token")==null){
+				window.location.href = "login.html"
+			}
+		</script>
+		<script>
+			var mySwiper = new Swiper('.banner_slide', {
+				autoplay: 3500,//可选选项，自动滑动
+				pagination : '.swiper-pagination',
+			})
+		</script>
+	</body>
+
+</html>

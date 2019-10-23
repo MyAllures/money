@@ -1,0 +1,55 @@
+ <body>
+<style>
+.Lav {
+    background:#fff;
+    padding: 10px 0 6px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.Lav ul {
+    height: 0px;
+}
+.Lav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.Lav ul li span {
+    display: block;
+    color: #000;
+    font-size: 10px;
+    font-family: "微软雅黑";
+    line-height: 20px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: normal;
+}
+ </style>
+<div class="Lav" >
+            <ul>
+              <li>
+                    <a href="{:U('Member/index')}"><span><img src="__PUBLIC__/Xin/static/images/shouyeye.png" height="30"></span><span>首页</span></a>
+                </li>
+                <li style="position:relative;">
+                    <a href="{:U('Member/my_jh')}"><span><img src="__PUBLIC__/Xin/static/images/zhucece.png" height="30"></span><span>计划</span></a>
+                </li>
+                <li>
+                    <a href="{:U('Member/my_qb')}"><span><img src="__PUBLIC__/Xin/static/images/shangquanquan.png" height="30"></span><span>钱包</span></a>
+                </li>
+                <li>
+                    <a href="{:U('Member/my_setting')}"><span><img src="__PUBLIC__/Xin/static/images/shezz.png" height="30"></span><span>我的</span></a>
+                </li>
+            </ul>
+</div>

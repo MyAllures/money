@@ -1,0 +1,150 @@
+{include file="layout/top"/}
+
+<div class="nav-tabs-custom">
+
+    <div class="tab-content">
+        <input  value="{$info.id}"  type="hidden" name="id" class="form-control" title="">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">会员名称(手机号)</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input disabled="" value="{$info.username}" class="form-control" title="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">订单号</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input disabled="" value="{$info.order_no}" class="form-control" title="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">金额</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input disabled="" value="{$info.money}" class="form-control" title="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">到账金额</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input disabled="" value="{$info.real_money}" class="form-control" title="">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">用户备注</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input disabled="" value="{$info.user_note}" class="form-control" title="">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">审核管理员</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input disabled="" value="{$info.nickname}" class="form-control" title="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">创建时间</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input disabled="" value="{$info.create_time}" class="form-control" title="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">手续费</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input  value="{$info.fee}" name="fee" class="form-control" title="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label">备注</label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <input  value="{$info.note}" name="note" class="form-control" title="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 col-lg-1 control-label"></label>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <button type="button" id="submit" class="btn btn-primary">审核通过</button> 
+                    <button type="button" id="cancel" class="btn btn-primary">审核不通过</button>  
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+
+    $("#submit").click(function () {
+        var fee = $("input[name=fee]").val();
+        var note = $("input[name=note]").val();
+        var id = $("input[name=id]").val();
+        if (fee == '') {
+            return layer.msg("请输入手续费");
+        }
+        if (note == '') {
+            return layer.msg("请输入备注");
+        }
+        $.ajax({
+            type: "POST",
+            url: "{:url('docheck')}",
+            dataType: "json",
+            data: {fee: fee, note: note, method: "confirm", id: id},
+            success: function (data) {
+                if (data.code != 1) {
+                    layer.msg(data.msg);
+                } else {
+                    setTimeout(function () {
+                        parent.location.reload();
+                    }, 1000);
+                }
+            },
+            error: function (a, b, c) {
+                layer.msg('系统错误');
+            }
+        })
+
+
+    })
+
+    $("#cancel").click(function () {
+        var fee = $("input[name=fee]").val();
+        var note = $("input[name=note]").val();
+        var id = $("input[name=id]").val();
+
+        if (note == '') {
+            return layer.msg("请输入备注");
+        }
+        $.ajax({
+            type: "POST",
+            url: "{:url('docheck')}",
+            dataType: "json",
+            data: {method: "cancel",fee:fee,note: note, id: id},
+            success: function (data) {
+                code = data.code;
+                console.log(code);
+
+                if (code != 1) {
+                    layer.msg(data.msg);
+                } else {
+                    setTimeout(function () {
+                        parent.location.reload();
+                    }, 1000);
+                }
+            },
+            error: function (a, b, c) {
+                layer.msg('系统错误');
+            }
+        })
+
+
+    })
+
+
+</script>

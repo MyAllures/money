@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title></title>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script src="js/js.js" type="text/javascript"></script>
+<style type="text/css">
+	a{
+		color: rgb(51,51,51);
+	}
+	.header .hele_on {
+		width: .88rem;
+		height: .88rem;
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		background: url(images/fankuijiluo@2x.png) no-repeat center center;
+		background-size: .33rem .38rem;
+	}
+	.del_img{
+		position: absolute;
+		top:-0.1rem;
+		right: -0.1rem;
+		width:0.32rem;
+		height:0.32rem;
+	}
+	.del_div{
+		display: inline-block;
+		position: relative;
+		margin-bottom:0.2rem; 
+	}
+	#file1,#file2{
+		opacity: 0;
+		width:0;
+		height:0;
+		display: none;
+	}
+	form{
+		display: inline-block;
+	}
+</style>
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<a href="my.html" class="hele"></a>
+		<h1 class="hetitle">意见反馈</h1>
+		<a href="Feedback_record.html" class="hele_on"></a>
+	</div>
+	<div id="page" class="page m">
+		<div class="padd2">
+			<div class="feedback1 margin_bt">
+				请填写详细问题和意见
+			</div>
+			<div class="margin_bt">
+				<input type="text" class="feedback_ipt title_1" placeholder="请简述标题（20字内）" />
+			</div>
+			<div class="margin_bt">
+				<textarea class="feedback_textarea content_1" placeholder="请输入不少于10字描述"></textarea>
+			</div>
+			<div class="feedback2" style="min-height: 3.32rem;height: auto;">
+				<div class="feedback3">
+					请提供相关问题的截图和照片，最多可上传5张
+				</div>
+				<div class="up_div_img" style="margin-top: .57rem;">
+					<form id="form1"  method="post" enctype="multipart/form-data">
+						<input type="file" name="file" id="file1"/>
+						<img class="feedback4 imgg" src="images/tianjiatupian@2x.png" alt="" />
+					</form>
+					<!--添加图片-->
+					<!--<div class="del_div">
+						<img class="feedback4" src="images/tianjiatupian@2x.png" alt="" />
+						<img src="images/tianjiatupian@2x.png" class="del_img" alt="" />
+					</div>-->
+				</div>
+			</div>
+		</div>
+		 <div style="text-align: center;padding-bottom:1.2rem;">
+        	<button type="button" class="login_btn login_bt1n">确认</button>
+        </div>
+	</div>
+	<script src="js/files_index.js?v=2019"></script>
+	<script src="js/feedback.js"></script>
+</body>
+</html>

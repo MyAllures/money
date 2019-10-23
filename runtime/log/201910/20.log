@@ -1,0 +1,1273 @@
+---------------------------------------------------------------
+[ 2019-10-20T10:16:01+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/level/levellist.html?_pjax=.content
+[ info ] www.pr175.cn/admin.php/level/levellist.html?_pjax=.content [运行时间：0.063479s][吞吐率：15.75req/s] [内存消耗：4,963.02kb] [文件加载：81]
+[ error ] [8]未定义数组下标: 0[C:\wwwroot\YouQianHuan\runtime\temp\9c682fb4cd1803ea5e95c2a116f432c3.php:47]
+---------------------------------------------------------------
+[ 2019-10-20T10:16:07+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html?_pjax=.content
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html?_pjax=.content [运行时间：0.062503s][吞吐率：16.00req/s] [内存消耗：4,957.59kb] [文件加载：80]
+[ error ] [8]未定义变量: list[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:65]
+[ error ] [1]Call to a member function render() on null[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:65]
+---------------------------------------------------------------
+[ 2019-10-20T10:16:07+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html [运行时间：0.068362s][吞吐率：14.63req/s] [内存消耗：4,970.65kb] [文件加载：80]
+[ error ] [8]未定义变量: list[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:309]
+[ error ] [1]Call to a member function render() on null[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:309]
+---------------------------------------------------------------
+[ 2019-10-20T10:16:29+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/level/levellist.html
+[ info ] www.pr175.cn/admin.php/level/levellist.html [运行时间：0.064456s][吞吐率：15.51req/s] [内存消耗：5,008.63kb] [文件加载：81]
+[ error ] [8]未定义数组下标: 0[C:\wwwroot\YouQianHuan\runtime\temp\9c682fb4cd1803ea5e95c2a116f432c3.php:291]
+---------------------------------------------------------------
+[ 2019-10-20T10:20:19+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html?_pjax=.content
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html?_pjax=.content [运行时间：0.073245s][吞吐率：13.65req/s] [内存消耗：5,004.83kb] [文件加载：80]
+[ error ] [8]未定义变量: list[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:65]
+[ error ] [1]Call to a member function render() on null[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:65]
+---------------------------------------------------------------
+[ 2019-10-20T10:20:19+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html [运行时间：0.066409s][吞吐率：15.06req/s] [内存消耗：5,017.55kb] [文件加载：80]
+[ error ] [8]未定义变量: list[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:309]
+[ error ] [1]Call to a member function render() on null[C:\wwwroot\YouQianHuan\runtime\temp\ab0c11e7acdd2a5835d769ba33ae3ad3.php:309]
+---------------------------------------------------------------
+[ 2019-10-20T10:28:27+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html?_pjax=.content
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html?_pjax=.content [运行时间：0.059573s][吞吐率：16.79req/s] [内存消耗：4,549.17kb] [文件加载：77]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tmf_zcplan` `a` INNER JOIN `tmf_user_card` `i` ON `a`.`uid`=`i`.`uid` LIMI' at line 1[C:\wwwroot\YouQianHuan\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-10-20T10:28:27+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html [运行时间：0.059573s][吞吐率：16.79req/s] [内存消耗：4,533.68kb] [文件加载：77]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tmf_zcplan` `a` INNER JOIN `tmf_user_card` `i` ON `a`.`uid`=`i`.`uid` LIMI' at line 1[C:\wwwroot\YouQianHuan\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-10-20T10:30:50+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html [运行时间：0.069339s][吞吐率：14.42req/s] [内存消耗：4,549.15kb] [文件加载：77]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tmf_zcplan` `a` INNER JOIN `tmf_user_card` `i` ON `a`.`uid`=`i`.`uid` LIMI' at line 1[C:\wwwroot\YouQianHuan\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-10-20T10:31:32+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html [运行时间：0.037111s][吞吐率：26.95req/s] [内存消耗：3,271.05kb] [文件加载：57]
+[ error ] [4]语法错误: unexpected '->' (T_OBJECT_OPERATOR)[C:\wwwroot\YouQianHuan\app\admin\controller\Debt.php:23]
+---------------------------------------------------------------
+[ 2019-10-20T10:35:05+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html [运行时间：0.067386s][吞吐率：14.84req/s] [内存消耗：4,457.03kb] [文件加载：75]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1582 Incorrect parameter count in the call to native function 'field'[C:\wwwroot\YouQianHuan\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-10-20T10:35:27+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/debt/debtlist.html
+[ info ] www.pr175.cn/admin.php/debt/debtlist.html [运行时间：0.069339s][吞吐率：14.42req/s] [内存消耗：4,629.63kb] [文件加载：74]
+[ error ] [1]Call to a member function paginate() on array[C:\wwwroot\YouQianHuan\app\admin\controller\Debt.php:23]
+---------------------------------------------------------------
+[ 2019-10-20T10:40:31+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/level/levellist.html?_pjax=.content
+[ info ] www.pr175.cn/admin.php/level/levellist.html?_pjax=.content [运行时间：0.073245s][吞吐率：13.65req/s] [内存消耗：4,963.02kb] [文件加载：81]
+[ error ] [8]未定义数组下标: 0[C:\wwwroot\YouQianHuan\runtime\temp\9c682fb4cd1803ea5e95c2a116f432c3.php:47]
+---------------------------------------------------------------
+[ 2019-10-20T10:43:33+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/user/authentication.html?_pjax=.content
+[ info ] www.pr175.cn/admin.php/user/authentication.html?_pjax=.content [运行时间：0.068362s][吞吐率：14.63req/s] [内存消耗：4,472.58kb] [文件加载：75]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'[C:\wwwroot\YouQianHuan\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-10-20T10:43:33+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/user/authentication.html
+[ info ] www.pr175.cn/admin.php/user/authentication.html [运行时间：0.050784s][吞吐率：19.69req/s] [内存消耗：4,456.83kb] [文件加载：75]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'[C:\wwwroot\YouQianHuan\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-10-20T10:44:02+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/user/authentication.html
+[ info ] www.pr175.cn/admin.php/user/authentication.html [运行时间：0.057619s][吞吐率：17.36req/s] [内存消耗：4,471.99kb] [文件加载：75]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'[C:\wwwroot\YouQianHuan\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-10-20T10:44:36+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/user/authentication.html
+[ info ] www.pr175.cn/admin.php/user/authentication.html [运行时间：0.064455s][吞吐率：15.51req/s] [内存消耗：4,927.75kb] [文件加载：77]
+[ error ] [1]Call to a member function render() on array[C:\wwwroot\YouQianHuan\runtime\temp\ac6fca4eed471c884c567cc344047b73.php:317]
+---------------------------------------------------------------
+[ 2019-10-20T10:45:36+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/user/authentication.html?_pjax=.content
+[ info ] www.pr175.cn/admin.php/user/authentication.html?_pjax=.content [运行时间：0.065432s][吞吐率：15.28req/s] [内存消耗：4,938.27kb] [文件加载：80]
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Collection' does not have a method 'select'[C:\wwwroot\YouQianHuan\thinkphp\library\think\Paginator.php:384]
+[ error ] [1]Call to a member function render() on null[C:\wwwroot\YouQianHuan\runtime\temp\ac6fca4eed471c884c567cc344047b73.php:73]
+---------------------------------------------------------------
+[ 2019-10-20T10:45:36+08:00 ] 172.24.241.251 27.205.174.175 GET /admin.php/user/authentication.html
+[ info ] www.pr175.cn/admin.php/user/authentication.html [运行时间：0.066409s][吞吐率：15.06req/s] [内存消耗：4,965.47kb] [文件加载：80]
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Collection' does not have a method 'select'[C:\wwwroot\YouQianHuan\thinkphp\library\think\Paginator.php:384]
+[ error ] [1]Call to a member function render() on null[C:\wwwroot\YouQianHuan\runtime\temp\ac6fca4eed471c884c567cc344047b73.php:317]
+---------------------------------------------------------------
+[ 2019-10-20T11:29:24+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.078128s][吞吐率：12.80req/s] [内存消耗：3,927.87kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:30:22+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.940504s][吞吐率：0.52req/s] [内存消耗：5,492.00kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:30:25+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：5.060741s][吞吐率：0.20req/s] [内存消耗：10,907.78kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:30:45+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.378959s][吞吐率：0.73req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:31:11+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.078128s][吞吐率：12.80req/s] [内存消耗：3,927.87kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:31:39+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.413140s][吞吐率：0.71req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:31:53+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.447321s][吞吐率：0.69req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:32:30+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.059573s][吞吐率：16.79req/s] [内存消耗：3,912.96kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:32:48+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.518613s][吞吐率：0.66req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:33:03+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.321339s][吞吐率：0.76req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:33:33+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.068362s][吞吐率：14.63req/s] [内存消耗：3,927.87kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:33:51+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.590881s][吞吐率：0.63req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:34:07+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.389701s][吞吐率：0.72req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:34:35+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.068362s][吞吐率：14.63req/s] [内存消耗：3,927.87kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:34:46+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.623071s][吞吐率：1.60req/s] [内存消耗：4,345.86kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:35:14+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：5.011911s][吞吐率：0.20req/s] [内存消耗：10,947.14kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:35:41+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.068362s][吞吐率：14.63req/s] [内存消耗：3,927.87kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:35:59+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：5.120314s][吞吐率：0.20req/s] [内存消耗：10,947.32kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:36:15+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.344778s][吞吐率：0.74req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:36:40+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.070315s][吞吐率：14.22req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:36:54+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.502988s][吞吐率：0.67req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:37:06+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.377006s][吞吐率：0.73req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:37:32+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.071292s][吞吐率：14.03req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:37:44+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.611351s][吞吐率：1.64req/s] [内存消耗：4,345.86kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:38:00+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.369193s][吞吐率：0.73req/s] [内存消耗：5,452.38kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:38:12+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.060549s][吞吐率：16.52req/s] [内存消耗：3,893.10kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T11:38:23+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.070315s][吞吐率：14.22req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:38:33+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.342825s][吞吐率：0.74req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:38:45+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.614320s][吞吐率：0.62req/s] [内存消耗：5,452.38kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:39:04+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.070315s][吞吐率：14.22req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:39:13+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.557677s][吞吐率：0.64req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:39:26+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.440485s][吞吐率：0.69req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:39:46+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.207039s][吞吐率：4.83req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:39:55+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.804757s][吞吐率：0.55req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:40:07+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.413141s][吞吐率：0.71req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:40:29+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.080082s][吞吐率：12.49req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:40:39+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.394585s][吞吐率：0.72req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:40:54+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.601624s][吞吐率：0.62req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:41:15+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.071292s][吞吐率：14.03req/s] [内存消耗：3,917.69kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:41:24+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.565489s][吞吐率：0.64req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:41:38+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.496151s][吞吐率：0.67req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:42:31+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.083988s][吞吐率：11.91req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:42:44+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.747138s][吞吐率：0.57req/s] [内存消耗：5,452.38kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:42:56+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.425836s][吞吐率：0.70req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:43:18+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.067385s][吞吐率：14.84req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:43:29+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.507871s][吞吐率：0.66req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:43:43+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.484432s][吞吐率：0.67req/s] [内存消耗：5,452.38kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:44:09+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.062502s][吞吐率：16.00req/s] [内存消耗：3,917.69kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:44:17+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.662173s][吞吐率：0.60req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:44:38+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.644595s][吞吐率：0.61req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:44:47+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.064455s][吞吐率：15.51req/s] [内存消耗：3,917.63kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:45:33+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.068362s][吞吐率：14.63req/s] [内存消耗：3,932.70kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:46:14+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.534238s][吞吐率：0.65req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:46:30+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.428766s][吞吐率：0.70req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:46:51+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.072269s][吞吐率：13.84req/s] [内存消耗：3,917.69kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserParent(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 576 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:547]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:572]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T11:46:59+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.457087s][吞吐率：0.69req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:47:12+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.395561s][吞吐率：0.72req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:47:39+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.377983s][吞吐率：0.73req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T11:47:54+08:00 ] 172.24.241.251 171.92.70.167 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.389702s][吞吐率：0.72req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T12:00:02+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.065432s][吞吐率：15.28req/s] [内存消耗：4,020.73kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:01:29+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.062502s][吞吐率：16.00req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:23:32+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.075198s][吞吐率：13.30req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:23:49+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.063479s][吞吐率：15.75req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:24:05+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.072268s][吞吐率：13.84req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:24:53+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.049806s][吞吐率：20.08req/s] [内存消耗：3,844.68kb] [文件加载：65]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+---------------------------------------------------------------
+[ 2019-10-20T12:24:57+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.049806s][吞吐率：20.08req/s] [内存消耗：3,844.68kb] [文件加载：65]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+---------------------------------------------------------------
+[ 2019-10-20T12:25:07+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.073245s][吞吐率：13.65req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:25:21+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.062503s][吞吐率：16.00req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:25:37+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.072268s][吞吐率：13.84req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:25:57+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.051760s][吞吐率：19.32req/s] [内存消耗：3,860.91kb] [文件加载：65]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+---------------------------------------------------------------
+[ 2019-10-20T12:26:02+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.074222s][吞吐率：13.47req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T12:26:17+08:00 ] 172.24.241.251 171.92.70.167 POST //api.php/User/reg
+[ info ] www.pr175.cn//api.php/User/reg [运行时间：0.064456s][吞吐率：15.51req/s] [内存消耗：4,020.87kb] [文件加载：67]
+[ error ] [8]未定义数组索引: code[C:\wwwroot\YouQianHuan\app\api\controller\User.php:57]
+[ error ] [8]未定义数组索引: order_no[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:95]
+[ error ] [8]未定义数组索引: to_user_id[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:97]
+[ error ] [8]未定义数组索引: score[C:\wwwroot\YouQianHuan\app\common\logic\Account.php:99]
+---------------------------------------------------------------
+[ 2019-10-20T14:18:12+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.510645s][吞吐率：0.66req/s] [内存消耗：4,637.17kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:18:22+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.871038s][吞吐率：1.15req/s] [内存消耗：4,616.48kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:18:34+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.698198s][吞吐率：1.43req/s] [内存消耗：4,375.55kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:18:52+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.046872s][吞吐率：21.33req/s] [内存消耗：3,883.44kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T14:19:01+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.027278s][吞吐率：0.97req/s] [内存消耗：4,904.66kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:36:55+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getUserCollection
+[ info ] www.pr175.cn/index.php/upload/getUserCollection [运行时间：0.060543s][吞吐率：16.52req/s] [内存消耗：3,874.30kb] [文件加载：66]
+[ error ] [2]unlink(C:\wwwroot\YouQianHuan\runtime\cache\01\f1f824749e48843962f3f27dca3286.php): Permission denied[C:\wwwroot\YouQianHuan\thinkphp\library\think\cache\driver\File.php:245]
+---------------------------------------------------------------
+[ 2019-10-20T14:38:11+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.394442s][吞吐率：0.72req/s] [内存消耗：4,637.17kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:38:16+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.816354s][吞吐率：1.22req/s] [内存消耗：4,637.17kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:38:31+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.900333s][吞吐率：1.11req/s] [内存消耗：4,637.27kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:38:37+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.040037s][吞吐率：24.98req/s] [内存消耗：3,867.66kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T14:38:57+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.875920s][吞吐率：1.14req/s] [内存消耗：4,616.75kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:40:53+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.822213s][吞吐率：1.22req/s] [内存消耗：4,623.80kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:41:04+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.001889s][吞吐率：1.00req/s] [内存消耗：4,623.80kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T14:41:25+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.061520s][吞吐率：16.25req/s] [内存消耗：3,896.20kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T14:41:45+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.060543s][吞吐率：16.52req/s] [内存消耗：3,896.20kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T14:41:57+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.043943s][吞吐率：22.76req/s] [内存消耗：3,881.21kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T14:42:00+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.052731s][吞吐率：18.96req/s] [内存消耗：3,881.21kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:05:40+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.891545s][吞吐率：1.12req/s] [内存消耗：4,068.57kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:05:41+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.380835s][吞吐率：2.63req/s] [内存消耗：4,029.33kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:06:03+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.296856s][吞吐率：3.37req/s] [内存消耗：4,028.55kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:06:18+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.393529s][吞吐率：2.54req/s] [内存消耗：4,068.55kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:07:02+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.040036s][吞吐率：24.98req/s] [内存消耗：3,868.40kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:07:08+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.323222s][吞吐率：3.09req/s] [内存消耗：4,068.55kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:07:25+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.070308s][吞吐率：14.22req/s] [内存消耗：3,913.86kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T15:07:32+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.400365s][吞吐率：2.50req/s] [内存消耗：4,029.33kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:07:39+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.386694s][吞吐率：2.59req/s] [内存消耗：4,068.57kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:08:01+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.048825s][吞吐率：20.48req/s] [内存消耗：3,887.75kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:08:08+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.041989s][吞吐率：23.82req/s] [内存消耗：3,872.66kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:08:37+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.054684s][吞吐率：18.29req/s] [内存消耗：3,885.15kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:08:59+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.058590s][吞吐率：17.07req/s] [内存消耗：3,885.15kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:14:37+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：3.277134s][吞吐率：0.31req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:14:44+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.329017s][吞吐率：0.75req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:15:03+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.570212s][吞吐率：0.64req/s] [内存消耗：5,491.71kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:15:15+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.041013s][吞吐率：24.38req/s] [内存消耗：3,867.45kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:15:26+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.579977s][吞吐率：0.63req/s] [内存消耗：5,491.85kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:16:03+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.539941s][吞吐率：0.65req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:16:07+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.694227s][吞吐率：0.59req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:16:23+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.595601s][吞吐率：0.63req/s] [内存消耗：5,491.71kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:16:29+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.049801s][吞吐率：20.08req/s] [内存消耗：3,867.45kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:16:38+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.489163s][吞吐率：0.67req/s] [内存消耗：5,491.85kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:17:28+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.505763s][吞吐率：0.66req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:17:31+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.360264s][吞吐率：0.74req/s] [内存消耗：5,452.39kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:17:44+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.506739s][吞吐率：0.66req/s] [内存消耗：5,491.71kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:17:52+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.041013s][吞吐率：24.38req/s] [内存消耗：3,867.45kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:17:59+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.376865s][吞吐率：0.73req/s] [内存消耗：5,491.85kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:18:32+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.470609s][吞吐率：0.68req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:18:38+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.621967s][吞吐率：0.62req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:18:54+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.529199s][吞吐率：0.65req/s] [内存消耗：5,491.71kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:19:01+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.049801s][吞吐率：20.08req/s] [内存消耗：3,867.45kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:19:09+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.347570s][吞吐率：0.74req/s] [内存消耗：5,491.85kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:23:46+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.934447s][吞吐率：0.52req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:23:49+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.600483s][吞吐率：0.62req/s] [内存消耗：5,452.39kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:24:03+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.497951s][吞吐率：0.67req/s] [内存消耗：5,491.71kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:24:10+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.049802s][吞吐率：20.08req/s] [内存消耗：3,867.45kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:24:19+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.370029s][吞吐率：0.73req/s] [内存消耗：5,491.85kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:24:52+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.733288s][吞吐率：0.58req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:24:58+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.429596s][吞吐率：0.70req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:25:13+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.409089s][吞吐率：0.71req/s] [内存消耗：5,491.71kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:25:18+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.038084s][吞吐率：26.26req/s] [内存消耗：3,867.45kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:25:25+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.436432s][吞吐率：0.70req/s] [内存消耗：5,491.85kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:25:58+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.701063s][吞吐率：0.59req/s] [内存消耗：5,491.81kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:26:01+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.300698s][吞吐率：0.77req/s] [内存消耗：5,452.39kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:26:13+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.362217s][吞吐率：0.73req/s] [内存消耗：5,491.71kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:26:19+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.048825s][吞吐率：20.48req/s] [内存消耗：3,867.47kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:26:28+08:00 ] 172.24.241.251 171.92.98.248 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.252849s][吞吐率：0.80req/s] [内存消耗：5,491.85kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:29:51+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.577112s][吞吐率：1.73req/s] [内存消耗：4,068.57kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:29:53+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.343728s][吞吐率：2.91req/s] [内存消耗：4,029.33kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:30:00+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.354470s][吞吐率：2.82req/s] [内存消耗：4,029.33kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:30:12+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getUserIsCollection
+[ info ] www.pr175.cn/index.php/upload/getUserIsCollection [运行时间：0.049801s][吞吐率：20.08req/s] [内存消耗：3,868.41kb] [文件加载：66]
+[ error ] [8]未定义数组索引: status[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:423]
+---------------------------------------------------------------
+[ 2019-10-20T15:30:14+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：0.392553s][吞吐率：2.55req/s] [内存消耗：4,068.55kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:31:43+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.073237s][吞吐率：13.65req/s] [内存消耗：3,913.86kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T15:44:24+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getMyFriend
+[ info ] www.pr175.cn/index.php/upload/getMyFriend [运行时间：0.048825s][吞吐率：20.48req/s] [内存消耗：3,865.52kb] [文件加载：66]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+---------------------------------------------------------------
+[ 2019-10-20T15:50:11+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.054684s][吞吐率：18.29req/s] [内存消耗：3,902.66kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:50:22+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.056637s][吞吐率：17.66req/s] [内存消耗：3,887.23kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:50:48+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getMyFriend
+[ info ] www.pr175.cn/index.php/upload/getMyFriend [运行时间：0.047848s][吞吐率：20.90req/s] [内存消耗：3,865.52kb] [文件加载：66]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+---------------------------------------------------------------
+[ 2019-10-20T15:51:45+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.042966s][吞吐率：23.27req/s] [内存消耗：3,874.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:51:52+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.050778s][吞吐率：19.69req/s] [内存消耗：3,890.00kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:52:00+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.059567s][吞吐率：16.79req/s] [内存消耗：3,890.00kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:52:10+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.047849s][吞吐率：20.90req/s] [内存消耗：3,890.00kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:52:27+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.058590s][吞吐率：17.07req/s] [内存消耗：3,890.00kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:52:31+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.059567s][吞吐率：16.79req/s] [内存消耗：3,890.00kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:52:36+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.050778s][吞吐率：19.69req/s] [内存消耗：3,890.00kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:52:38+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.040036s][吞吐率：24.98req/s] [内存消耗：3,874.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T15:53:09+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.548729s][吞吐率：0.65req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:53:33+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.560447s][吞吐率：0.64req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:54:06+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.079096s][吞吐率：12.64req/s] [内存消耗：3,927.88kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T15:54:24+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.462797s][吞吐率：0.68req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:54:44+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.399324s][吞吐率：0.71req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:55:05+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.071284s][吞吐率：14.03req/s] [内存消耗：3,927.86kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T15:55:18+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.423737s][吞吐率：0.70req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:55:34+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.492092s][吞吐率：0.67req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:56:21+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.067379s][吞吐率：14.84req/s] [内存消耗：3,927.86kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T15:56:43+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.976436s][吞吐率：0.51req/s] [内存消耗：6,444.33kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:56:55+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.342687s][吞吐率：0.74req/s] [内存消耗：5,452.38kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:57:07+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.378818s][吞吐率：0.73req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:57:41+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.078120s][吞吐率：12.80req/s] [内存消耗：3,927.86kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T15:58:17+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.530176s][吞吐率：0.65req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:58:47+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.279215s][吞吐率：0.78req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T15:59:29+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.070308s][吞吐率：14.22req/s] [内存消耗：3,912.99kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T15:59:41+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.429596s][吞吐率：0.70req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T16:01:29+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.615131s][吞吐率：0.62req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T16:02:25+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.066402s][吞吐率：15.06req/s] [内存消耗：3,927.86kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T16:03:51+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：5.240875s][吞吐率：0.19req/s] [内存消耗：10,947.14kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T16:04:15+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.502833s][吞吐率：0.67req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T16:04:45+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/addPlanUser
+[ info ] www.pr175.cn/index.php/upload/addPlanUser [运行时间：0.067379s][吞吐率：14.84req/s] [内存消耗：3,927.86kb] [文件加载：66]
+[ error ] [2]Missing argument 3 for app\index\controller\Upload::addPlanUserUp9(), called in C:\wwwroot\YouQianHuan\app\index\controller\Upload.php on line 651 and defined[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:621]
+[ error ] [8]未定义变量: upLevel[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:647]
+---------------------------------------------------------------
+[ 2019-10-20T16:05:11+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.384677s][吞吐率：0.72req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T16:05:42+08:00 ] 172.24.241.251 139.207.91.141 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.206954s][吞吐率：0.83req/s] [内存消耗：5,491.74kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T17:40:51+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.065433s][吞吐率：15.28req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:40:58+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.062502s][吞吐率：16.00req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:01+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.053713s][吞吐率：18.62req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:04+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.061525s][吞吐率：16.25req/s] [内存消耗：3,924.70kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:06+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.053713s][吞吐率：18.62req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:09+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.062503s][吞吐率：16.00req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:12+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.064455s][吞吐率：15.51req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:15+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.052736s][吞吐率：18.96req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:18+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.062502s][吞吐率：16.00req/s] [内存消耗：3,909.19kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:41:47+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.056643s][吞吐率：17.65req/s] [内存消耗：3,911.93kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:07+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.058596s][吞吐率：17.07req/s] [内存消耗：3,896.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:09+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.057620s][吞吐率：17.36req/s] [内存消耗：3,911.93kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:12+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.059573s][吞吐率：16.79req/s] [内存消耗：3,896.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:14+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.060550s][吞吐率：16.52req/s] [内存消耗：3,896.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:16+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.059573s][吞吐率：16.79req/s] [内存消耗：3,896.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:19+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.058596s][吞吐率：17.07req/s] [内存消耗：3,896.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:21+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.060550s][吞吐率：16.52req/s] [内存消耗：3,896.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:42:24+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.058596s][吞吐率：17.07req/s] [内存消耗：3,896.86kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:43:26+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.056643s][吞吐率：17.65req/s] [内存消耗：3,911.93kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:44:38+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/saveBase64Image
+[ info ] www.pr175.cn/index.php/upload/saveBase64Image [运行时间：1.667056s][吞吐率：0.60req/s] [内存消耗：4,694.56kb] [文件加载：73]
+[ error ] [8]Use of undefined constant key - assumed 'key'[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:107]
+---------------------------------------------------------------
+[ 2019-10-20T17:44:58+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.065432s][吞吐率：15.28req/s] [内存消耗：3,912.24kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:45:06+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.064456s][吞吐率：15.51req/s] [内存消耗：3,912.24kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:46:28+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getPayList
+[ info ] www.pr175.cn/index.php/upload/getPayList [运行时间：0.062503s][吞吐率：16.00req/s] [内存消耗：3,927.77kb] [文件加载：66]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+[ error ] [8]未定义数组索引: avater[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:774]
+---------------------------------------------------------------
+[ 2019-10-20T17:46:39+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getMyFriend
+[ info ] www.pr175.cn/index.php/upload/getMyFriend [运行时间：0.039064s][吞吐率：25.60req/s] [内存消耗：3,865.52kb] [文件加载：66]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+---------------------------------------------------------------
+[ 2019-10-20T17:47:06+08:00 ] 172.24.241.251 117.177.9.82 POST /index.php/upload/getMyFriend
+[ info ] www.pr175.cn/index.php/upload/getMyFriend [运行时间：0.050783s][吞吐率：19.69req/s] [内存消耗：3,878.04kb] [文件加载：66]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]
+[ error ] [8]未定义数组索引: img[C:\wwwroot\YouQianHuan\app\index\controller\Upload.php:364]

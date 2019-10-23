@@ -1,0 +1,69 @@
+<div class="box">
+    <div class="box-header ">
+
+        <!--<ob_link><a class="btn" href="{:url('qrcodeAdd')}"><i class="fa fa-plus"></i> 新 增</a></ob_link>-->
+        &nbsp;
+        <div class="box-tools ">
+            <div class="input-group input-group-sm search-form">
+                <input name="search_data" class="pull-right search-input" value="{:input('search_data')}" placeholder="推荐人" type="text">
+                <input name="search_name" class="pull-right search-input" value="{:input('search_name')}" placeholder="会员名称（手机号）" type="text">
+                <div class="input-group-btn">
+                    <button type="button" id="search" url="{:url('userList')}" class="btn btn-default"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <br/>
+    </div>
+    <div class="box-body table-responsive">
+        <table  class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>会员名称(手机号)</th>
+                    <th>邀请码</th>
+                    <th>阶段</th>
+                    <th>推荐人</th>
+                    <th>金额</th>
+                    <th>糖果</th>
+                    <th>积分</th>
+                    <th>最后登陆时间</th>
+                    <th>最后登陆ip</th>
+                    <th>添加时间</th>
+                    <th>更新时间</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            {notempty name='list'}
+            <tbody>
+                {volist name='list' id='vo'}
+                <tr>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.code}</td>
+                    <td>{$level[$vo.level]}</td>
+                    <td>{$vo.rusername}</td>
+                    <td>{$vo.money}</td>
+                    <td>{$vo.score}</td>
+                    <td>{$vo.score_amount}</td>
+                    <td>{$vo.login_time|date="Y-m-d H:i:s",###}</td>
+                    <td>{:long2ip($vo.login_ip)}</td>
+                    <td>{$vo.create_time}</td>
+                    <td>{$vo.update_time}</td>
+                    <td>{$status[$vo.status]}</td>
+            <td class="text-center">
+            <ob_link><a href="{:url('userEdit', array('id' => $vo['id']))}" class="btn"><i class="fa"></i> 编辑</a></ob_link>
+            &nbsp;
+            </td>
+            </tr>
+            {/volist}
+            </tbody>
+            {else/}
+            <tbody><tr class="odd"><td colspan="7" class="text-center" valign="top">{:config('empty_list_describe')}</td></tr></tbody>  
+            {/notempty}
+        </table>
+    </div>
+
+    <div class="box-footer clearfix text-center">
+        {$list->render()}
+    </div>
+
+</div>

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title></title>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script src="js/js.js" type="text/javascript"></script>
+<style type="text/css">
+	a{
+		color: rgb(51,51,51);
+	}
+	.suzr {
+	    background:#1E88E5;
+   		background-size: 100% 100%;
+	    border: 0;
+	    outline: none;
+	    color: white;
+	    border-radius: .2rem;
+	}
+	.dialog .dialog_content{
+		width: 68%; 
+		margin-left: -127.5px; 
+		margin-top: -56.5px;
+		padding: 0;
+		text-align: center;
+	}
+	.mask {
+	    display: none;
+	    width: 100%;
+	    height: 100%;
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    z-index: 1000;
+	    background: rgba(0, 0, 0, .4);
+	}
+	.headimg{
+		width: 1.65rem;
+    	height: 1.65rem;
+	}
+	.nickname{
+		margin: .08rem 0 .21rem 0;
+	}
+</style>
+</head>
+<body>
+	<div id="page" class="page m2">
+		<div class="my">
+			<p class="pad colff font32" style="padding: .84rem 0 .23rem 0;font-size: 0.35rem;">个人中心</p>
+			<img src="images/my_header@2x.png?v=2019" alt="" class="headimg head_icon" />
+			<p class="mar colff font30 nickname"></p>
+		</div>
+		<a href="Thepersonaldata.html" class="flelink">
+			<div class="massage fle" style="margin:.18rem 0;">			
+					<div class="main">
+						<img src="images/ziliao@2x.png" alt="" class="size"/>
+						<span>个人资料</span>
+					</div>			
+				<img src="images/zuo.png" alt=""  class="left1"/>
+			</div>
+		</a>
+		<!--<a class="flelink">
+			<div class="massage fle" >			
+					<div class="main">
+						<img src="images/erweima.png" alt="" class="size"/>
+						<span>邀请好友</span>
+					</div>			
+				<img src="images/zuo.png" alt=""  class="left1"/>
+			</div>
+		</a>-->
+		<a href="Password_change.html" class="flelink">
+			<div class="massage  fle">			
+					<div class="main">
+						<img src="images/mimaxiugai@2x.png" alt="" class="size"/>
+						<span>密码修改</span>
+					</div>			
+				<img src="images/zuo.png" alt=""  class="left1"/>
+			</div>
+		</a>
+		<a href="feedback.html" class="flelink">
+			<div class="massage mart20 fle">			
+				<div class="main">
+					<img src="images/gonggao@2x.png" alt="" class="size"/>
+					<span>意见反馈</span>
+				</div>			
+				<img src="images/zuo.png" alt=""  class="left1"/>
+			</div>
+		</a>
+		<!--<a href="Platform_complaint.html?type=2" class="flelink">
+			<div class="massage fle">			
+				<div class="main">
+					<img src="images/shenshu@2x.png" alt="" class="size"/>
+					<span>平台申诉</span>
+				</div>
+				<img src="images/zuo.png" alt=""  class="left1"/>
+			</div>
+		</a>-->
+		<div style="text-align: center;margin-top: 1.06rem;">
+        	<button type="button" onclick="dialog('#d3')" class="login_btn login_bt1n">安全退出</button>
+        </div>
+	</div>
+	<!-- footer -->
+  <div class="footer">
+    <div class="fonav">
+      <a href="index.html" class="foitem on">
+        <img src="images/foimg1_on.png" alt="" class="foimg" />首页
+      </a>
+      <a href="jihua.html?v=3223" class="foitem">
+        <img src="images/foimg2.png" alt="" class="foimg" />计划
+      </a>
+      <a href="my_qb.html" class="foitem">
+        <img src="images/foimg3.png" alt="" class="foimg" />钱包
+      </a>
+      <a href="Thepersonaldata.html" class="foitem">
+        <img src="images/foimg4.png" alt="" class="foimg" />我的
+      </a>
+    </div>
+	<!--遮罩-->
+	<div class="mask"></div>
+	<div class="dialog" id="d3">
+		<div class="dialog_content">
+			<div class="diapassa">
+				<div class="two" style="padding:0.4rem 0;padding-bottom: 0.1rem;">
+					<p class="font28 jianshan" style="font-size:0.25rem;">是否退出登录？</p>
+				</div>
+				<div class="two" style="padding:0.4rem 0;">
+					<button class="suzr font28" style="width:2rem;margin-right:0.5rem;background:#DDDDDD;height:.65rem" onclick="dialogClose()" type="button">取消</button>
+					<button class="suzr font28" style="width:2rem;height:.65rem" type="button" onclick="javascript:location.href='login.html'">确定</button>
+				</div>	
+			</div>
+	    </div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			var height = $(document).outerHeight(true) - $(".header").height() - $(".footer").height();
+			$(".page").height(height);
+		})
+	</script>
+	<!--<script src="js/files_index.js?v=2019"></script>-->
+	<script>
+		personal_data(2);
+		
+	</script>
+</body>
+</html>

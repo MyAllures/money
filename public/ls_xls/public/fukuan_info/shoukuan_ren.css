@@ -1,0 +1,48 @@
+.shoukuanren_list {
+	width: 94%;
+	margin: 0.2rem auto;
+}
+.shoukuanren_list ul li{
+	width: 100%;
+	border-radius: 6px 6px 0 0;
+}
+.shoukuanren_list ul li+li{
+	margin-top: 0.2rem;
+}
+.peopleinfo {
+	background:#353c6b ;
+	padding: 0.25rem 0.2rem;
+}
+.paybtn {
+	background:#3c4372 ;
+	padding: 0.2rem;
+	align-items: center;
+}
+.paystatu a {
+	padding: 0.08rem 0.2rem;
+	display: inline-block;
+	border-radius: 6px;
+}
+/* 付款信息 */
+.jiekuan_infos {
+	width: 94%;
+	margin: 0.2rem auto;
+}
+.jiekuan_infos .shoukuanren_list {
+	width: 100%;
+}
+.jiekuan_infos .payimg {
+	background:#3d4475 ;
+	padding: 0.4rem 0.2rem;
+}
+.jiekuan_infos .payimg  img {
+	width: 50%;
+	display: block;
+	margin: 0 auto 0.1rem auto;
+}
+.miaoshu {
+	margin-top: 0.2rem;
+}
+.yecolor{
+	 color:#c1a03e ;
+	}

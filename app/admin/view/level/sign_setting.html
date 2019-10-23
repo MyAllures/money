@@ -1,0 +1,33 @@
+<form action="{:url()}" method="post" class="form_single">
+    <div class="box">
+        <div class="box-body">
+
+            <div class="row">                                
+
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>赠送糖果开关</label>
+                        <span></span>
+                        <select name="is_send" class="form-control">
+                            {volist name='is_send_arr' id='vo'}
+                            <option value="{$key}">{$vo|default=''}</option>
+                            {/volist}
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-footer">
+                <input type="hidden" name="id" value="{$info['id']|default='0'}"/>
+                {include file="layout/edit_btn_group"/}
+
+            </div>
+
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+    ob.setValue("is_send", {$is_send|default = 0} );
+</script>
